@@ -1,0 +1,28 @@
+<table>
+    <tr>
+        <th>Remove |</th>
+        <th>Count |</th>
+        <th>Outpost Module Name |</th>
+        <th>Resources to Craft |</th>
+        <th>Power Value</th>
+    </tr>
+    {% for line_item in regex_matches %}
+    <tr>
+        <td>
+            <input type="button" value="Delete">
+        </td>
+        <td>
+            _quantity
+        </td>
+        <td>
+            _module_name
+        </td>
+        <td>
+            _required_resources
+        </td>
+        <td>
+            _power_modification
+        </td>
+    </tr>
+    {% endfor %}
+</table>
