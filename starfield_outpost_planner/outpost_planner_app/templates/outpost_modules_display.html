@@ -1,3 +1,5 @@
+<br>
+[TODO: RESOURCE ITEMIZATION TOTALS HERE]
 <table>
     <tr>
         <th>Remove |</th>
@@ -6,22 +8,22 @@
         <th>Resources to Craft |</th>
         <th>Power Value</th>
     </tr>
-    {% for line_item in regex_matches %}
+    {% for om in modules %}
     <tr>
         <td>
             <input type="button" value="Delete">
         </td>
         <td>
-            _quantity
+            quantity=1
         </td>
         <td>
-            _module_name
+            module_name={{om.name}}
         </td>
         <td>
-            _required_resources
+            required_resources=TBD
         </td>
         <td>
-            _power_modification
+            power_modification=TBD
         </td>
     </tr>
     {% endfor %}

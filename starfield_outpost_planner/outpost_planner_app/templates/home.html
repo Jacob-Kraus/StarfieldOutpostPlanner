@@ -9,14 +9,14 @@
 <br>
 <form action="" method="GET" id="moduleSelection">
 <input type="Submit" value="Add" formaction="">
-<input type="number" value="0" id="quantity" name="quantity" min="1" max="99" form="moduleSelection" required>
-<select name="outpostModule" id="outpostModule" required>
+<input type="number" value="0" id="quantity" name="num" min="1" max="99" form="moduleSelection" required>
+<select id="outpostModule" name="omID" required>
     {% for om in modules %}
     <option value="{{ om.moduleID }}">{{om.name}}</option>
     {% endfor %}
 </select>
 </form>
 <br>
-Resource Itemization:
-{% include 'outpost_modules_display.html' %}
+Resource Itemization Totals:
+{{ subView }}
 {% endblock %}
