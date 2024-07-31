@@ -2,14 +2,15 @@
 {% block content %}
 <h1>HOME</h1>
 <h2>Outpost Module List</h2>
-<p>[TODO: create user interface to add/remove outpost modules from list]</p>
 <p>[TODO: dynamically populate list of existing modules from URL request]</p>
-<p>[TODO: ]</p>
+<p>[TODO: create user interface to add/remove outpost modules from list]</p>
+<p>[TODO: only add to the count of the outpost module if it's already in the list]</p>
+<p>[TODO: add more than one kind of outpost module option]</p>
 <br>
 <form action="" method="GET" id="moduleSelection">
-<input type="Submit" value="Add">
-<input type="number" id="quantity" name="quantity" min="1" max="99">
-<select name="outpostModule" id="outpostModule">
+<input type="Submit" value="Add" formaction="">
+<input type="number" value="0" id="quantity" name="quantity" min="1" max="99" form="moduleSelection" required>
+<select name="outpostModule" id="outpostModule" required>
     {% for om in modules %}
     <option value="{{ om.moduleID }}">{{om.name}}</option>
     {% endfor %}
@@ -17,5 +18,5 @@
 </form>
 <br>
 Resource Itemization:
-{% include 'outpost_modules_display.html' with context %}
+{% include 'outpost_modules_display.html' %}
 {% endblock %}
