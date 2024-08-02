@@ -1,0 +1,28 @@
+'''
+    <tr>
+        <td>
+            <input type="button" value="Delete" >
+        </td>
+        <td>
+            <input id="outpostModuleCount0"
+                   type="number"
+                   value="0"
+                   min="1"
+                   max="99"
+                   required
+                   onchange="outpostModuleSelectionChanged(this)">
+        </td>
+        <td>
+            <select id="outpostModuleName0"
+                    required
+                    onchange="outpostModuleSelectionChanged(this)">
+                    <option value="----------">----------</option>
+                    {% for om in modules %}
+                        <option value="{{ om.moduleID }}">{{om.name}}</option>
+                    {% endfor %}
+            </select>
+        </td>
+        <td id="requires0"></td>
+        <td id="power0"></td>
+    </tr>
+'''

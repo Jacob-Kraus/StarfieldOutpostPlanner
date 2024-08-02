@@ -1,28 +1,60 @@
 <br>
-[TODO: RESOURCE ITEMIZATION TOTALS HERE]
-<table>
+<table name="itemizationTable">
+    <thead>
+        <tr>
+            <th>Add/Remove</th>
+            <th>Count</th>
+            <th>Outpost Module Name</th>
+            <th>Required Resources</th>
+            <th>Power Value</th>
+        </tr>
+    </thead>
     <tr>
-        <th>Remove</th>
-        <th>Count</th>
-        <th>Outpost Module Name</th>
-        <th>Required Resources</th>
-        <th>Power Value</th>
+        <td>
+            <input id="delete" type="button" value="Delete" onclick="deleteOutpostModuleLine(this.parentNode().parentNode().parentNode())">
+        </td>
+        <td>
+            <input id="outpostModuleCount1"
+                   type="number"
+                   value="0"
+                   min="1"
+                   max="99"
+                   required
+                   onchange="outpostModuleSelectionChanged(this)">
+        </td>
+        <td>
+            <select id="outpostModuleName1"
+                    required
+                    onchange="outpostModuleSelectionChanged(this)">
+                    <option value="----------">----------</option>
+                    {% for om in modules %}
+                        <option value="{{ om.moduleID }}">{{om.name}}</option>
+                    {% endfor %}
+            </select>
+        </td>
+        <td id="requires1"></td>
+        <td id="power1"></td>
     </tr>
-    <tr>
-        <td>
-            <input type="button" value="Delete">
-        </td>
-        <td>
-            {{num}}
-        </td>
-        <td>
-            {{module_name}}
-        </td>
-        <td>
-            requires {{resources}}
-        </td>
-        <td>
-            {{power}}
-        </td>
-    </tr>
+    <tfoot>
+        <tr>
+            <td>
+                <input type="button" value="Add New" onclick="addOutpostModuleLine()">
+            </td>
+            <td>
+                <div id="outpostModuleCountSum">0</div>
+            </td>
+            <td>
+                <div id="uniqueOutpostModules">0</div>
+            </td>
+            <td>
+                <div id="requiredResources"></div>
+            </td>
+            <td>
+                <div id="powerValue"></div>
+            </td>
+            <td>
+                <div id=""></div>
+            </td>
+        </tr>
+    </tfoot>
 </table>
