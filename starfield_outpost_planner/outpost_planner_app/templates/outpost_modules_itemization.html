@@ -2,29 +2,27 @@
 [TODO: RESOURCE ITEMIZATION TOTALS HERE]
 <table>
     <tr>
-        <th>Remove |</th>
-        <th>Count |</th>
-        <th>Outpost Module Name |</th>
-        <th>Resources to Craft |</th>
+        <th>Remove</th>
+        <th>Count</th>
+        <th>Outpost Module Name</th>
+        <th>Required Resources</th>
         <th>Power Value</th>
     </tr>
-    {% for om in modules %}
     <tr>
         <td>
             <input type="button" value="Delete">
         </td>
         <td>
-            quantity=1
+            {{num}}
         </td>
         <td>
-            module_name={{om.name}}
+            {{module_name}}
         </td>
         <td>
-            required_resources=TBD
+            requires {{resources}}
         </td>
         <td>
-            power_modification=TBD
+            {{power}}
         </td>
     </tr>
-    {% endfor %}
 </table>
