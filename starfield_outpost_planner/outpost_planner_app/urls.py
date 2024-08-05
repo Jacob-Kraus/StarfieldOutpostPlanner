@@ -7,5 +7,5 @@ urlpatterns = [
     path("", views.home, name="StarfieldOutpostPlanner/$"),
     path("about", views.about, name="about"),
     path("contact", views.contact, name="contact"),
-    path("home", views.home, name="home"),
+    path("outpostSelector<int:row_index>", views.outpost_selector, name="outpostSelector"),
 ]
