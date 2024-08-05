@@ -4,10 +4,18 @@ last_row_id = 'row-1'
 
 function deleteOutpostModuleLine(rowIndex)
 {
-    console.log("deleting rowIndex = " + rowIndex);
     rowIndex = parseInt(rowIndex);
     var table = document.getElementById("itemizationTable");
     table.deleteRow(rowIndex);
+    // console.log("deleted rowIndex = " + rowIndex);
+}
+
+
+function outpostModuleSelectionChanged(id, moduleName, moduleCount)
+{
+    // TODO
+    var moduleTag = document.getElementById(id);
+    console.log("TODO: outpostModuleSelectionChanged(id, moduleName, moduleCount)")
 }
 
 
@@ -24,9 +32,9 @@ async function getRow(rowIndex)
             throw new Error(`Response status: ${response.status}`);
         }
         try {
-            console.log(`response:\n${response}`)
+            // console.log(`response:\n${response}`)
             let htmlText = await response.text();
-            console.log(`getRow():\n${htmlText}`); // TODO: why is this good, but the return value not good?
+            // console.log(`getRow():\n${htmlText}`); // TODO: why is this good, but the return value not good?
             return htmlText;
         } catch (error) {
             console.error('response.text() error: ' + error.message);
@@ -37,25 +45,17 @@ async function getRow(rowIndex)
 }
 
 
-function outpostModuleSelectionChanged(id, moduleName, moduleCount)
-{
-    // TODO
-    var moduleTag = document.getElementById(id);
-    console.log("TODO: outpostModuleSelectionChanged(id, moduleName, moduleCount)")
-}
-
-
 async function addOutpostModuleLine(rowIndex)
 {
     // rowIndex will be the index in the table which the new line/row will inhabit.
     let htmlText = await getRow(rowIndex);
-    console.log(`addOutpostModuleLine():\n${htmlText}`);
-    console.log("acquired row contents string");
+    // console.log(`addOutpostModuleLine():\n${htmlText}`);
+    // console.log("acquired row contents string");
     var table = document.getElementById("itemizationTable");
     var lastRow = document.getElementById(last_row_id);
 
     // this approach didn't work:
     var row = table.insertRow(rowIndex);
-    console.log("added rowIndex = " + rowIndex);
+    // console.log("added rowIndex = " + rowIndex);
     row.innerHTML = htmlText;
 }
