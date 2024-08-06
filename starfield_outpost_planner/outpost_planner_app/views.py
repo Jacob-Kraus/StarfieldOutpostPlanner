@@ -1,8 +1,7 @@
+from django.core.exceptions import MultipleObjectsReturned, ObjectDoesNotExist
 from django.db import connection
-from django.db.models import ObjectDoesNotExist
-from django.http import Http404, HttpResponse, HttpResponseRedirect
+from django.http import Http404, HttpResponse, JsonResponse
 from django.shortcuts import render, redirect
-from django.template.loader import render_to_string
 from .models import OutpostModule, Recipe
 
 
@@ -25,7 +24,8 @@ def get_context_data():
 
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the starfield_outpost_planner [index].")
+    # return HttpResponse("Hello, world. You're at the starfield_outpost_planner [index].")
+    return render(request, "index.html")
 
 
 def about(request):
@@ -51,3 +51,14 @@ def outpost_selector(request, row_index):
     return render(request,
                   "outpost_selector.html",
                   {'modules': outpost_modules, 'rowIndex': row_index})
+
+
+def module_cost_lookup(request, moduleID):
+    moduleID = int(moduleID)
+    try:
+        om = OutpostModule.objects.get(moduleID=moduleID)
+        rec = om.get_recipe()
+        return JsonResponse(rec)
+    except (ObjectDoesNotExist, MultipleObjectsReturned):
+        print(f"Error looking up moduleID({moduleID})")
+        return Http404

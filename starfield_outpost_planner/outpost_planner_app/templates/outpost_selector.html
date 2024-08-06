@@ -3,18 +3,18 @@
             <input id="delete{{rowIndex}}" type="button" value="Delete" onclick="deleteOutpostModuleLine(this.parentNode.parentNode.rowIndex)">
         </td>
         <td>
-            <input
+            <input id="num{{rowIndex}}"
                    type="number"
                    value="0"
                    min="1"
                    max="99"
                    required
-                   onchange="outpostModuleSelectionChanged(this)">
+                   onchange="outpostModuleSelectionChanged(this.parentNode.parentNode.rowIndex)">
         </td>
         <td>
             <select id="outpostModuleName{{rowIndex}}"
                     required
-                    onchange="outpostModuleSelectionChanged(this)">
+                    onchange="outpostModuleSelectionChanged(this.parentNode.parentNode.rowIndex)">
                     <option value="----------">----------</option>
                     {% for om in modules %}
                         <option value="{{ om.moduleID }}">{{om.name}}</option>

@@ -1,4 +1,5 @@
 from django.db import models
+from django.core.exceptions import MultipleObjectsReturned, ObjectDoesNotExist
 
 
 # 387 unique base-game outpost module recipes
@@ -9,6 +10,15 @@ class OutpostModule(models.Model):
     category = models.CharField(max_length=50, unique=False, null=False)
     power = models.SmallIntegerField(null=False, unique=False)
     recipeID = models.SmallIntegerField(null=False, unique=True)
+
+    def get_recipe(self):
+        rec = {}
+        try:
+            rec = Recipe.objects.get(self.recipeID)
+            return rec.get_recipe()
+        except (ObjectDoesNotExist, MultipleObjectsReturned) as e:
+            print(f"{type(e)}: {e} getting recipe {self.recipeID}")
+            return rec
 
 
 # 421 unique base-game crafting recipes
@@ -125,6 +135,13 @@ class Recipe(models.Model):
     requiredVytiniumFuelRod = models.SmallIntegerField(null=True, blank=True, default=None)
     requiredZeroWire = models.SmallIntegerField(null=True, blank=True, default=None)
     requiredZeroGGimbal = models.SmallIntegerField(null=True, blank=True, default=None)
+
+    def get_recipe(self):
+        # returns dictionary of the non-None(Null) crafting resources required by the recipe
+        prefix = 'required'
+        soln = {attr.removeprefix(prefix): getattr(self, attr) for attr in dir(self)
+                if (attr.startswith(prefix) and getattr(self, attr))}
+        return soln
 
 
 # 166 unique base-game crafting resources
