@@ -2,6 +2,11 @@
 last_row_id = 'row-1';
 
 
+function setValue(domObjId, value) {
+    document.getElementById(domObjId).value=value;
+}
+
+
 function deleteOutpostModuleLine(rowIndex)
 {
     rowIndex = parseInt(rowIndex);

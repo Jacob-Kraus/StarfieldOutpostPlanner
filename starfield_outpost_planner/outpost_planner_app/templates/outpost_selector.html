@@ -10,6 +10,7 @@
                    max="99"
                    required
                    onchange="outpostModuleSelectionChanged(this.parentNode.parentNode.rowIndex)">
+            <script>setValue("num{{rowIndex}}", {{moduleCount}});</script>
         </td>
         <td>
             <select id="outpostModuleName{{rowIndex}}"
@@ -20,6 +21,7 @@
                         <option value="{{ om.moduleID }}">{{om.name}}</option>
                     {% endfor %}
             </select>
+            <script>setValue("outpostModuleName{{rowIndex}}", {{moduleID}});</script>
         </td>
         <td id="requires{{rowIndex}}"></td>
         <td id="power{{rowIndex}}"></td>

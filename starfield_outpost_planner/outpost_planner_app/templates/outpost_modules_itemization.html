@@ -9,6 +9,9 @@
         <th>Power Value</th>
     </tr>
     </thead>
+    {% for k, v in outpost_slugs %}
+        {% include "outpost_selector.html" with modules=modules rowIndex=list(outpost_slugs.keys()).index(k) moduleID=k moduleCount=v %}
+    {% endfor %}
     {% include "outpost_selector.html" with modules=modules rowIndex=1 %}
     <tr id="row-1">
         <td>

@@ -21,9 +21,9 @@ from outpost_planner_app.views import redirect_view
 
 urlpatterns = [
     path('', redirect_view),
-    path('sop/', redirect_view),
-    path('SOP/', redirect_view),
-    path('starfieldoutpostplanner/', redirect_view),
+    path('sop', redirect_view),
+    path('SOP', redirect_view),
+    path('starfieldoutpostplanner', redirect_view),
     path('StarfieldOutpostPlanner/', include("outpost_planner_app.urls")),
     path('admin/', admin.site.urls),
 ]
