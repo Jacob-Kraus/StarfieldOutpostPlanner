@@ -1,33 +1,20 @@
 <br>
 <table id="itemizationTable">
     <thead>
-    <tr>
-        <th>Add/Remove</th>
-        <th>Count</th>
-        <th>Outpost Module Name</th>
-        <th>Required Resources</th>
-        <th>Power Value</th>
-    </tr>
+        <tr>
+            <th>Add/Remove</th>
+            <th>Count</th>
+            <th>Outpost Module Name</th>
+            <th>Required Resources</th>
+            <th>Power Value</th>
+        </tr>
     </thead>
-    {% for k, v in outpost_slugs %}
-        {% include "outpost_selector.html" with modules=modules rowIndex=list(outpost_slugs.keys()).index(k) moduleID=k moduleCount=v %}
-    {% endfor %}
-    {% include "outpost_selector.html" with modules=modules rowIndex=1 %}
-    <tr id="row-1">
-        <td>
-            <input type="button" value="Add New" onclick="addOutpostModuleLine(this.parentNode.parentNode.rowIndex)">
-        </td>
-        <td>
-            <div id="outpostModuleCountSum">0</div>
-        </td>
-        <td>
-            <div id="uniqueOutpostModules">0</div>
-        </td>
-        <td>
-            <div id="requiredResources">NaN</div>
-        </td>
-        <td>
-            <div id="powerValue">0</div>
-        </td>
-    </tr>
+    <tbody>
+        {% for row in rows %}
+            {{ row }}
+        {% endfor %}
+    </tbody>
+    <tfoot>
+        {{ tally }}
+    </tfoot>
 </table>
