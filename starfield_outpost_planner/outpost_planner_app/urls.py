@@ -12,5 +12,6 @@ urlpatterns = [
     path("contact", views.contact, name="contact"),
     #
     path("outpostSelector<int:row_index>", views.outpost_selector, name="outpostSelector"),
-    path("costLookup<int:moduleID>", views.module_cost_lookup, name="costLookup")
+    path("costLookup<int:moduleID>", views.module_cost_lookup, name="costLookup"),
+    path("tally", views.get_tally, name="tally"),
 ]

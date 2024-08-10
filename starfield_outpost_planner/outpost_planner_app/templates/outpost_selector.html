@@ -16,13 +16,17 @@
             <select id="outpostModuleName{{rowIndex}}"
                     required
                     onchange="outpostModuleSelectionChanged(this.parentNode.parentNode.rowIndex)">
-                    <option value="----------">----------</option>
+                    <option value="0">----------</option>
                     {% for om in modules %}
                         <option value="{{ om.moduleID }}">{{om.name}}</option>
                     {% endfor %}
             </select>
             <script>setValue("outpostModuleName{{rowIndex}}", {{moduleID}});</script>
         </td>
-        <td id="requires{{rowIndex}}">{{cost}}</td>
+        <td id="requires{{rowIndex}}">
+            {% for item in cost %}
+                {{item}}: {{cost}}<br>
+            {% endfor %}
+        </td>
         <td id="power{{rowIndex}}">{{power}}</td>
     </tr>

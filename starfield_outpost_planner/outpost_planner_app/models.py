@@ -12,13 +12,13 @@ class OutpostModule(models.Model):
     recipeID = models.SmallIntegerField(null=False, unique=True)
 
     def get_recipe(self):
-        rec = {}
         try:
-            rec = Recipe.objects.get(self.recipeID)
-            return rec.get_recipe()
+            rec = Recipe.objects.get(recipeID=self.recipeID)
+            r_dict = rec.get_recipe()
+            return r_dict
         except (ObjectDoesNotExist, MultipleObjectsReturned) as e:
-            print(f"{type(e)}: {e} getting recipe {self.recipeID}")
-            return rec
+            print(f"{type(e)}: {e} getting recipe {repr(self.recipeID)}")
+        return dict()
 
 
 # 421 unique base-game crafting recipes
@@ -139,7 +139,7 @@ class Recipe(models.Model):
     def get_recipe(self):
         # returns dictionary of the non-None(Null) crafting resources required by the recipe
         prefix = 'required'
-        soln = {attr.removeprefix(prefix): getattr(self, attr) for attr in dir(self)
+        soln = {attr.removeprefix(prefix): int(getattr(self, attr)) for attr in dir(self)
                 if (attr.startswith(prefix) and getattr(self, attr))}
         return soln
 
@@ -156,3 +156,22 @@ class Resource(models.Model):
     manufactured = models.BooleanField(unique=False, null=False)
     organic = models.BooleanField(unique=False, null=False)
     recipeID = models.SmallIntegerField(unique=False, null=True, blank=True, default=None)
+
+
+def main():
+
+    print("OutpostModule route:")
+    om = OutpostModule.objects.get('87')
+    print(f"OutpostModule.objects.get('87'): {om}")
+    mr = om.get_recipe()
+    print(f"om.get_recipe(): {mr}")
+
+    print("Recipe route:")
+    rec = Recipe.objects.get('121')
+    print(f"Recipe.objects.get('121'): {rec}")
+    r = rec.get_recipe()
+    print(f"rec.get_recipe(): {r}")
+
+
+if __name__ == "__main__":
+    main()
