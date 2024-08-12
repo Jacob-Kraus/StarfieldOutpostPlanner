@@ -9,19 +9,21 @@ function setValue(domObjId, value) {
 
 function deleteOutpostModuleLine(rowIndex)
 {
-    rowIndex = parseInt(rowIndex);
-    var table = document.getElementById("itemizationTable");
-    table.deleteRow(rowIndex);
-    console.log("deleteOutpostModuleLine: deleted rowIndex = " + rowIndex);
+    console.log(`deleteOutpostModuleLine(${rowIndex})`);
+    outpostModuleSelectionChanged(delRowIndex=rowIndex);
 }
 
 
-function getNewURLData() {
+function getNewURLData(delRowIndex=null) {
     var rows = document.getElementById("itemizationBody").rows;
     console.log(`getNewURLData(): rows.length = ${rows.length}`)
     // iterates over the <table>'s <tbody>'s <tr>s to construct the data for new URL navigation
     var valuePairs = new Array();
-    for (i=0; i<rows.length; i++) {
+    var length = rows.length
+
+    for (i=0; i < length; i++) {
+        if ( delRowIndex == i ) { continue; } // skip the row we are deleting
+
         // add tuple to list (moduleID, count)
         var v1 = parseInt(document.getElementById(`outpostModuleName${i}`).value);
         var v2 = parseInt(document.getElementById(`num${i}`).value);
@@ -52,14 +54,13 @@ function getNewURLData() {
 }
 
 
-async function outpostModuleSelectionChanged()
+async function outpostModuleSelectionChanged(delRowIndex=null)
 {
-    console.log(`outpostModuleSelectionChanged()`);
+    console.log(`outpostModuleSelectionChanged(delRowIndex=${delRowIndex})`);
     // test out prototype new data collection
-    var destinationSlug = getNewURLData();
+    var destinationSlug = getNewURLData(delRowIndex=delRowIndex);
     console.log(`outpostModuleSelectionChanged: destination = (${Object.prototype.toString.call(destinationSlug)}) ${destinationSlug}`);
 
-    // TODO: redirect to ~/StarfieldOutpostPlanner/home/<destinationSlug>
     // parse relative URL
     var url_path = document.URL;
     var url_arr = url_path.split("/");
@@ -104,16 +105,23 @@ async function getNewRow(rowIndex)
 
 async function addOutpostModuleLine()
 {
-    // rowIndex will be the index in the table which the new line/row will inhabit.
-    var body = document.getElementById("itemizationBody");
-    if ( body == null ) { console.error('addOutpostModuleLine: document.getElementsById("itemizationBody") = null'); }
-    let htmlText = await getNewRow(rowIndex=body.rows.length);
+    console.log('addOutpostModuleLine()');
+    // new attempt at writing function
+    var destinationSlug = getNewURLData();
+    destinationSlug = destinationSlug + '_0-0';
+    console.log(`destinationSlug=${destinationSlug}`)
 
-    var row = body.insertRow(rowIndex);
-    if (row != null) {
-        row.innerHTML = htmlText;
-        console.log("addOutpostModuleLine: added rowIndex(" + rowIndex + ")");
-    } else {
-        console.log("addOutpostModuleLine: failed to add rowIndex(" + rowIndex + "), row == null")
+    // parse relative URL
+    var url_path = document.URL;
+    var url_arr = url_path.split("/");
+    var last = url_arr.pop();
+    if ( last == 'home' ) {
+        url_arr.push(last); // keep the '/home' url ending
     }
+    url_arr.push(destinationSlug);
+    console.log(`url_arr=${url_arr}`);
+    url_path = url_arr.join('/');
+    console.log(`url_path=${url_path}`);
+    // redirect to URL
+    window.location.href = `${url_path}`;
 }

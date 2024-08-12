@@ -7,6 +7,7 @@ urlpatterns = [
     path(r"", views.index, name="StarfieldOutpostPlanner"),  # <root>/StarfieldOutpostPlanner/
     path(r"index", views.index, name="index"),
     re_path("home$", views.home, name="home"),
+    re_path("home/$", views.redirect_view, name="home/"),
     path("home/<slug:slug>", views.preowned, name="preowned"),
     path("about", views.about, name="about"),
     path("contact", views.contact, name="contact"),

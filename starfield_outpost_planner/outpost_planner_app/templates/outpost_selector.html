@@ -1,6 +1,6 @@
-    <tr id="row{{rowIndex}}">
+<tr id="row{{rowIndex}}">
         <td>
-            <input id="delete{{rowIndex}}" type="button" value="Delete" onclick="deleteOutpostModuleLine(this.parentNode.parentNode.rowIndex)">
+            <input id="delete{{rowIndex}}" type="button" value="Delete" onclick="deleteOutpostModuleLine({{rowIndex}})">
         </td>
         <td>
             <input id="num{{rowIndex}}"

@@ -8,13 +8,13 @@
             <th>Required Resources</th>
             <th>Power Value</th>
         </tr>
+        <tr>
+            {{ tally }}
+        </tr>
     </thead>
     <tbody id="itemizationBody">
         {% for row in rows %}
-            {{ row }}
+        {{ row }}
         {% endfor %}
     </tbody>
-    <tfoot>
-        {{ tally }}
-    </tfoot>
 </table>

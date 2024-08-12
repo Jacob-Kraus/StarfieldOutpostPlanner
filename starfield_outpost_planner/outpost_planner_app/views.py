@@ -95,8 +95,10 @@ def preowned(request, slug):  # a preowned homepage - populated with
 
 def redirect_view(request):
     print('outpost_planner_app.views.redirect')
-    response = redirect('StarfieldOutpostPlanner')
-    return response
+    print(f'    redirect_view(request): request.path_info: {request.path_info}')
+    if 'home' in request.path_info:
+        return redirect('home')
+    return redirect('StarfieldOutpostPlanner')
 
 
 def outpost_selector(request, row_index, module_count=0, module_id=0):
