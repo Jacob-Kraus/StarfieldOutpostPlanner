@@ -1,6 +1,6 @@
         <tr id="row{{rowIndex}}">
             <td>
-                <input type="button" value="Add New" onclick="addOutpostModuleLine(this.parentNode.parentNode.rowIndex)">
+                <input type="button" value="Add New" onclick="addOutpostModuleLine()">
             </td>
             <td>
                 <div id="outpostModuleCountSum">{{outpostModuleCountSum}}</div>
@@ -9,9 +9,13 @@
                 <div id="uniqueOutpostModules">{{uniqueOutpostModules}}</div>
             </td>
             <td>
-                <div id="requiredResources">{{requiredResources}}</div>
+                <div id="requiredResources">
+                    {% for item in requiredResources %}
+                        {{item}}<br>
+                    {% endfor %}
+                </div>
             </td>
-            <td>
+            <td align="center">
                 <div id="powerValue">{{powerValue}}</div>
             </td>
         </tr>

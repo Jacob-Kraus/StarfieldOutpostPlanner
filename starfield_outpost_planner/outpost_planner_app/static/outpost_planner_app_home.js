@@ -12,48 +12,65 @@ function deleteOutpostModuleLine(rowIndex)
     rowIndex = parseInt(rowIndex);
     var table = document.getElementById("itemizationTable");
     table.deleteRow(rowIndex);
-    console.log("deleted rowIndex = " + rowIndex);
+    console.log("deleteOutpostModuleLine: deleted rowIndex = " + rowIndex);
 }
 
 
-async function outpostModuleSelectionChanged(rowIndex)
+function getNewURLData() {
+    var rows = document.getElementById("itemizationBody").rows;
+    console.log(`getNewURLData(): rows.length = ${rows.length}`)
+    // iterates over the <table>'s <tbody>'s <tr>s to construct the data for new URL navigation
+    var valuePairs = new Array();
+    for (i=0; i<rows.length; i++) {
+        // add tuple to list (moduleID, count)
+        var v1 = parseInt(document.getElementById(`outpostModuleName${i}`).value);
+        var v2 = parseInt(document.getElementById(`num${i}`).value);
+        var NaNvs = '';
+        if ( isNaN(v1) ) {
+            console.error('getNewURLData(): Parameter is not a number! (v1)');
+        }
+        if ( isNaN(v2) ) {
+            console.error('getNewURLData(): Parameter is not a number! (v2)');
+        }
+        if ( !(isNaN(v1) || isNaN(v2)) ) {
+            // console.log(`getNewURLData(): pushing new Array(${v1}, ${v2})`);
+            valuePairs.push(new Array(v1, v2));
+        }
+    }
+    console.log(`getNewURLData(): valuePairs = ${valuePairs}`);
+    // construct the string
+    var destination = new Array();
+    for (i=0; i < valuePairs.length; i++) {
+        var tempStr = `_${valuePairs[i][0]}-${valuePairs[i][1]}`;
+        // console.log(`getNewURLData(): i=${i}, tempStr=${tempStr}`)
+        destination.push(tempStr);
+        // console.log(`getNewURLData(): destination=${destination}`);
+    }
+    let soln = destination.join("");
+    // console.log(`getNewURLData(): ${soln}`);
+    return soln;
+}
+
+
+async function outpostModuleSelectionChanged()
 {
-    // get the module ID and the number of modules
-    var moduleCount = parseInt(document.getElementById(`num${rowIndex}`).value);
-    if (moduleCount > 99 || moduleCount < 1){
-        // todo: set value to 1
-    }
-    var moduleID = parseInt(document.getElementById(`outpostModuleName${rowIndex}`).value);
-    if (moduleID == null) {
-        console.log("outpostModuleSelectionChanged got null moduleID");
-        return; // no specified outpost module name (was the filler '----------' value)
-    }
+    console.log(`outpostModuleSelectionChanged()`);
+    // test out prototype new data collection
+    var destinationSlug = getNewURLData();
+    console.log(`outpostModuleSelectionChanged: destination = (${Object.prototype.toString.call(destinationSlug)}) ${destinationSlug}`);
 
-    // lookup the cost to craft 1 of one of the selected module
-    const url = `costLookup${moduleID}`
-    try {
-        let response = await fetch(url);
-        if (!response.ok) {
-            throw new Error(`Response status: ${response.status}`);
-        }
-        try {
-            let recipeDict = await response.json();
-            console.log(recipeDict);
-            var recipeKeys = keys(recipeDict).sort((a, b) => a.localeCompare(b));
-            //
-        } catch (error) {
-            console.error('response.text() error: ' + error.message);
-        }
-    } catch (error) {
-        console.error('fetch() error: ' + error.message);
+    // TODO: redirect to ~/StarfieldOutpostPlanner/home/<destinationSlug>
+    // parse relative URL
+    var url_path = document.URL;
+    var url_arr = url_path.split("/");
+    var last = url_arr.pop();
+    if ( last == 'home' ) {
+        url_arr.push(last); // keep the '/home' url ending, drop others
     }
-
-    // write values to rendered webpage
-    var requiredResourcesDOM = document.getElementById(`requires${rowIndex}`);
-    var powerModificationDOM = document.getElementById(`power${rowIndex}`);
-
-    // TODO
-    console.log("TODO: outpostModuleSelectionChanged(rowIndex)")
+    url_arr.push(destinationSlug);
+    url_path = url_arr.join('/');
+    // redirect to URL
+    window.location.href = `${url_path}`;
 }
 
 
@@ -63,11 +80,12 @@ async function getNewRow(rowIndex)
     //  https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
     // We want the id attribute values to have the rowIndex included so we can more easily
     //  update the power and required items when the selected outpost module or count changes.
+    console.log(`getNewRow(rowIndex=${rowIndex})`)
     const url = `outpostSelector${rowIndex}`;
     try {
         let response = await fetch(url);
         if (!response.ok) {
-            throw new Error(`Response status: ${response.status}`);
+            throw new Error(`getNewRow: Response status: ${response.status}`);
         }
         try {
             // console.log(`response:\n${response}`)
@@ -75,25 +93,27 @@ async function getNewRow(rowIndex)
             // console.log(`getRow():\n${htmlText}`); // TODO: why is this good, but the return value not good?
             return htmlText;
         } catch (error) {
-            console.error('response.text() error: ' + error.message);
+            console.error('getNewRow: response.text() error: ' + error.message);
         }
     } catch (error) {
-        console.error('fetch() error: ' + error.message);
+        console.error('getNewRow: fetch() error: ' + error.message);
     }
     return null;
 }
 
 
-async function addOutpostModuleLine(rowIndex)
+async function addOutpostModuleLine()
 {
     // rowIndex will be the index in the table which the new line/row will inhabit.
-    let htmlText = await getNewRow(rowIndex);
-    var table = document.getElementById("itemizationTable");
+    var body = document.getElementById("itemizationBody");
+    if ( body == null ) { console.error('addOutpostModuleLine: document.getElementsById("itemizationBody") = null'); }
+    let htmlText = await getNewRow(rowIndex=body.rows.length);
 
-    var row = table.insertRow(rowIndex);
+    var row = body.insertRow(rowIndex);
     if (row != null) {
         row.innerHTML = htmlText;
-        console.log("added rowIndex(" + rowIndex + ")");
+        console.log("addOutpostModuleLine: added rowIndex(" + rowIndex + ")");
+    } else {
+        console.log("addOutpostModuleLine: failed to add rowIndex(" + rowIndex + "), row == null")
     }
-    console.log("failed to add rowIndex(" + rowIndex + ")")
 }

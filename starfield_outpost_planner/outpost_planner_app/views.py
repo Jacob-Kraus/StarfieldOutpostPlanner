@@ -58,17 +58,20 @@ def preowned(request, slug):  # a preowned homepage - populated with
         print(f'matches: {matches}')
         print("BAD SLUG")
         return Http404  # TODO: slot in an error message instead of 404-ing
+    cost_render = []
     row_data = []
     rows_render = list()
     for i, (om_id, num) in enumerate(matches):
+        om_id = int(om_id)
+        num = int(num)
         power = 0
-        cost = ''
+        cost = []
         try:
             om = OutpostModule.objects.get(moduleID=om_id)
             rec = om.get_recipe()
-            power = om.power
+            power = om.power * num
             ingredients = sorted(rec)
-            cost_render = [f"{k}: {num * int(rec[k])}" for k in ingredients]
+            cost = [f"{k}: {num * int(rec[k])}" for k in ingredients]
             row_data.append((num, om.name, rec, om.power))
         except (ObjectDoesNotExist, MultipleObjectsReturned):
             if int(om_id) != 0:
@@ -80,7 +83,7 @@ def preowned(request, slug):  # a preowned homepage - populated with
         rows_render.append(
             render_to_string('outpost_selector.html',
                              {'modules': outpost_modules, 'rowIndex': i,
-                              'moduleCount': num, 'moduleID': om_id, 'cost': cost_render, 'power': power},
+                              'moduleCount': num, 'moduleID': om_id, 'cost': cost, 'power': power},
                              request)
         )
     tally_render = get_tally(request, data=row_data)
@@ -117,6 +120,7 @@ def module_cost_lookup(request, module_id):
 
 
 def get_tally(request, data=None):
+    print('outpost_planner_app.views.get_tally')
     if not data:
         data = []
     row_index = -1
@@ -130,16 +134,16 @@ def get_tally(request, data=None):
         for num, om_name, rec, power in data:
             outpost_module_count += int(num)
             u_modules.add(om_name)
-            power_value += int(power)
+            power_value += int(power) * int(num)
             try:
                 for r_ingredient, r_count in rec.items():
                     if not recipe_ingredients.get(r_ingredient):
                         recipe_ingredients[r_ingredient] = 0
-                    recipe_ingredients[r_ingredient] += int(r_count)
+                    recipe_ingredients[r_ingredient] += int(r_count) * int(num)
             except ValueError:
                 print(f"VALUE ERROR - rec: {rec}")
         resources = sorted(recipe_ingredients)
-        recipe_ingredients = '\n'.join([f'{resource}: {recipe_ingredients[resource]}' for resource in resources])
+        recipe_ingredients = [f'{resource}: {recipe_ingredients[resource]}' for resource in resources]
         unique_outpost_modules = len(resources)
     return render_to_string('tally.html',
                             {'rowIndex': row_index,
