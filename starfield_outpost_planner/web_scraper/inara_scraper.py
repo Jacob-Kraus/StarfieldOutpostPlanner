@@ -68,7 +68,11 @@ def scrape_outpost_module_data(url=None):
                              'type': m_type,
                              'power': m_power,
                              'recipeID': r_id}
-        recipe_data[r_id] = get_recipe_required_resources(m_link)
+        # TODO: make this asynchronous or on a delayed timer
+        #   it will not be fun to have to wait for it to complete
+        #   with artifically inflated runtimes, but it will keep
+        #   from hosing their server or getting me blacklisted.
+        # recipe_data[r_id] = get_recipe_required_resources(m_link)
 
     mark = timeit.default_timer() - start
     print(f"html parsing took {round(mark, 4)}")
