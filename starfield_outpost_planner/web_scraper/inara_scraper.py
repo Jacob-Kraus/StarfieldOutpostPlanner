@@ -45,7 +45,7 @@ def get_recipe_required_resources(url):
     return required_resources
 
 
-def scrape_outpost_module_data(url=None):
+def scrape_outpost_module_data(url=None, recipe_index_start=35):
     module_data = {}
     recipe_data = {}
     # getting web content
@@ -71,10 +71,10 @@ def scrape_outpost_module_data(url=None):
 
     s_time = 1
     for i, tr in enumerate(table_rows):
-        m_id = i + 1
+        m_id = i
         m_name, m_type, m_power = (td.get_text() for td in tr.find_all('td'))
         m_link = tr.find('a').get('href')
-        r_id = m_id + 34
+        r_id = m_id + recipe_index_start
         module_data[m_id] = {'name': m_name,
                              'type': m_type,
                              'power': m_power,
@@ -165,43 +165,13 @@ def main():
 
     # get data
     recipe_data = scrape_manufactured_resources_recipe_data()
-    module_data, recipe_data_2 = scrape_outpost_module_data()
+    module_data, recipe_data_2 = scrape_outpost_module_data(len(recipe_data))
     recipe_data.update(recipe_data_2)
 
     # write data to json files
     with open(f'{os.path.join(target_dir, "module_data.json")}', mode='w') as m_jdf:
         m_jdf.write(json.dumps(module_data, indent=4, sort_keys=True))
         m_jdf.close()
-    with open(f'{os.path.join(target_dir, "recipe_data.json")}', mode='w') as r_jdf:
-        r_jdf.write(json.dumps(recipe_data, indent=4, sort_keys=True))
-        r_jdf.close()
-
-
-def cleanup_json_formatting():
-    # fixing the json file formatting
-    #   because I forgot the `indent=` kwarg for json.dumps() the first time
-    cwd = os.getcwd()
-    target_dir = cwd
-    if not cwd.endswith('web_scraper'):
-        for root, dirs, files in os.walk(cwd):
-            if 'web_scraper' in dirs:
-                target_dir = os.path.join(root, 'web_scraper')
-                break
-    print(f"target_dir : {target_dir}")
-
-    module_data = {}
-    recipe_data = {}
-
-    with open(f'{os.path.join(target_dir, "module_data.json")}', mode='r') as m_jdf:
-        module_data = json.loads(m_jdf.read())
-        m_jdf.close()
-    with open(f'{os.path.join(target_dir, "module_data.json")}', mode='w') as m_jdf:
-        m_jdf.write(json.dumps(module_data, indent=4, sort_keys=True))
-        m_jdf.close()
-
-    with open(f'{os.path.join(target_dir, "recipe_data.json")}', mode='r') as r_jdf:
-        recipe_data = json.loads(r_jdf.read())
-        r_jdf.close()
     with open(f'{os.path.join(target_dir, "recipe_data.json")}', mode='w') as r_jdf:
         r_jdf.write(json.dumps(recipe_data, indent=4, sort_keys=True))
         r_jdf.close()
