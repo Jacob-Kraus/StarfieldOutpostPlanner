@@ -1,0 +1,3383 @@
+{
+    "1": {
+        "description": "Adaptive Frame",
+        "required": {
+            "requiredAluminum": 1,
+            "requiredIron": 1
+        }
+    },
+    "2": {
+        "description": "Aldumite Drilling Rig",
+        "required": {
+            "requiredAldumite": 4,
+            "requiredCaesium": 2,
+            "requiredDrillingRig": 1,
+            "requiredMicrosecondRegulator": 1
+        }
+    },
+    "3": {
+        "description": "Austenitic Manifold",
+        "required": {
+            "requiredIron": 2,
+            "requiredNickel": 2,
+            "requiredReactiveGauge": 1
+        }
+    },
+    "4": {
+        "description": "Charged Diodes",
+        "required": {}
+    },
+    "5": {
+        "description": "Comm Relay",
+        "required": {
+            "requiredIsocenteredMagnet": 1,
+            "requiredTauGradeRheostat": 1
+        }
+    },
+    "6": {
+        "description": "Control Rod",
+        "required": {
+            "requiredAusteniticManifold": 1,
+            "requiredDysprosium": 3,
+            "requiredIsotopicCoolant": 1
+        }
+    },
+    "7": {
+        "description": "Drilling Rig",
+        "required": {
+            "requiredLubricant": 2,
+            "requiredReactiveGauge": 1,
+            "requiredTungsten": 3
+        }
+    },
+    "8": {
+        "description": "Indicite Wafer",
+        "required": {
+            "requiredCaesium": 2,
+            "requiredIndicite": 4,
+            "requiredSemimetalWafer": 1,
+            "requiredSolvent": 2
+        }
+    },
+    "9": {
+        "description": "Isocentered Magnet",
+        "required": {
+            "requiredCobalt": 1,
+            "requiredNickel": 1
+        }
+    },
+    "10": {
+        "description": "Isotopic Coolant",
+        "required": {
+            "requiredIonicLiquids": 1,
+            "requiredTetrafluorides": 1
+        }
+    },
+    "11": {
+        "description": "Large Round Primer",
+        "required": {}
+    },
+    "12": {
+        "description": "Mag Pressure Tank",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredNickel": 1
+        }
+    },
+    "13": {
+        "description": "Magnetic Diodes",
+        "required": {}
+    },
+    "14": {
+        "description": "Microsecond Regulator",
+        "required": {
+            "requiredEuropium": 4,
+            "requiredLithium": 2,
+            "requiredSupercooledMagnet": 1,
+            "requiredTauGradeRheostat": 1
+        }
+    },
+    "15": {
+        "description": "Molecular Sieve",
+        "required": {
+            "requiredIonicLiquids": 2,
+            "requiredMagPressureTank": 1,
+            "requiredMembrane": 2
+        }
+    },
+    "16": {
+        "description": "Monopropellant",
+        "required": {
+            "requiredAlkanes": 2,
+            "requiredMagPressureTank": 1,
+            "requiredReactiveGauge": 1
+        }
+    },
+    "17": {
+        "description": "Nuclear Fuel Rod",
+        "required": {
+            "requiredSemimetalWafer": 1,
+            "requiredSolvent": 2,
+            "requiredUranium": 3
+        }
+    },
+    "18": {
+        "description": "Paramagnon Conductor",
+        "required": {
+            "requiredGold": 1,
+            "requiredNeodymium": 1,
+            "requiredZeroWire": 3
+        }
+    },
+    "19": {
+        "description": "Polytextile",
+        "required": {
+            "requiredCosmetic": 1,
+            "requiredFiber": 2
+        }
+    },
+    "20": {
+        "description": "Positron Battery",
+        "required": {
+            "requiredAntimony": 2,
+            "requiredTauGradeRheostat": 1,
+            "requiredVanadium": 2
+        }
+    },
+    "21": {
+        "description": "Power Circuit",
+        "required": {
+            "requiredPalladium": 4,
+            "requiredParamagnonConductor": 1,
+            "requiredPolymer": 2,
+            "requiredPositronBattery": 1
+        }
+    },
+    "22": {
+        "description": "Reactive Gauge",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredCopper": 1
+        }
+    },
+    "23": {
+        "description": "Rothicite Magnet",
+        "required": {
+            "requiredLithium": 2,
+            "requiredRothicite": 4,
+            "requiredSemimetalWafer": 1,
+            "requiredSupercooledMagnet": 1
+        }
+    },
+    "24": {
+        "description": "Semimetal Wafer",
+        "required": {
+            "requiredAntimony": 2,
+            "requiredGold": 2,
+            "requiredZeroWire": 1
+        }
+    },
+    "25": {
+        "description": "Small Round Primer",
+        "required": {}
+    },
+    "26": {
+        "description": "Sterile Nanotubes",
+        "required": {
+            "requiredMolecularSieve": 1,
+            "requiredSolvent": 2,
+            "requiredVanadium": 2
+        }
+    },
+    "27": {
+        "description": "Substrate Molecule Sieve",
+        "required": {
+            "requiredBiosuppressant": 2,
+            "requiredMemorySubstrate": 3,
+            "requiredMolecularSieve": 1,
+            "requiredSterileNanotubes": 2
+        }
+    },
+    "28": {
+        "description": "Supercooled Magnet",
+        "required": {
+            "requiredIsocenteredMagnet": 1,
+            "requiredIsotopicCoolant": 1,
+            "requiredNeodymium": 3
+        }
+    },
+    "29": {
+        "description": "Tasine Superconductor",
+        "required": {
+            "requiredPalladium": 2,
+            "requiredParamagnonConductor": 1,
+            "requiredPolymer": 2,
+            "requiredTasine": 4
+        }
+    },
+    "30": {
+        "description": "Tau Grade Rheostat",
+        "required": {
+            "requiredBeryllium": 1,
+            "requiredCopper": 1
+        }
+    },
+    "31": {
+        "description": "Veryl-Treated Manifold",
+        "required": {
+            "requiredAusteniticManifold": 1,
+            "requiredLubricant": 2,
+            "requiredVeryl": 4,
+            "requiredYtterbium": 2
+        }
+    },
+    "32": {
+        "description": "Vytinium Fuel Rod",
+        "required": {
+            "requiredIndiciteWafer": 1,
+            "requiredNuclearFuelRod": 1,
+            "requiredPlutonium": 2,
+            "requiredVytinium": 4
+        }
+    },
+    "33": {
+        "description": "Zero Wire",
+        "required": {
+            "requiredCopper": 1,
+            "requiredSilver": 1
+        }
+    },
+    "34": {
+        "description": "Zero-G Gimbal",
+        "required": {
+            "requiredIsocenteredMagnet": 1,
+            "requiredLubricant": 2,
+            "requiredTantalum": 2
+        }
+    },
+    "35": {
+        "description": "Animal Hide Rug",
+        "required": {
+            "requiredFiber": 3,
+            "requiredLuxuryTextile": 1
+        }
+    },
+    "36": {
+        "description": "Animal Husbandry Facility",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAluminum": 8,
+            "requiredReactiveGauge": 3,
+            "requiredSealant": 3
+        }
+    },
+    "37": {
+        "description": "Animal Husbandry Facility - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 7,
+            "requiredAluminum": 12,
+            "requiredMolecularSieve": 2,
+            "requiredSealant": 6
+        }
+    },
+    "38": {
+        "description": "Animal Husbandry Facility - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 9,
+            "requiredAluminum": 16,
+            "requiredSealant": 9,
+            "requiredSubstrateMoleculeSieve": 2
+        }
+    },
+    "39": {
+        "description": "Backpack Stand",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredStructuralMaterial": 1
+        }
+    },
+    "40": {
+        "description": "Ballistic Turret Mk I",
+        "required": {
+            "requiredBeryllium": 2,
+            "requiredIron": 4,
+            "requiredLead": 3
+        }
+    },
+    "41": {
+        "description": "Ballistic Turret Mk II",
+        "required": {
+            "requiredAdhesive": 2,
+            "requiredTitanium": 4,
+            "requiredTungsten": 3,
+            "requiredZeroWire": 2
+        }
+    },
+    "42": {
+        "description": "Ballistic Turret Mk III",
+        "required": {
+            "requiredLubricant": 2,
+            "requiredMicrosecondRegulator": 1,
+            "requiredTitanium": 6,
+            "requiredTungsten": 5,
+            "requiredZeroWire": 4
+        }
+    },
+    "43": {
+        "description": "Bar Table",
+        "required": {
+            "requiredAluminum": 1,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "44": {
+        "description": "Bed (Starborn)",
+        "required": {
+            "requiredFiber": 3,
+            "requiredLuxuryTextile": 1,
+            "requiredNickel": 4
+        }
+    },
+    "45": {
+        "description": "Bed 1",
+        "required": {
+            "requiredFiber": 3,
+            "requiredStructuralMaterial": 4
+        }
+    },
+    "46": {
+        "description": "Bed 2",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredFiber": 3
+        }
+    },
+    "47": {
+        "description": "Bed 3",
+        "required": {
+            "requiredFiber": 3,
+            "requiredLuxuryTextile": 1,
+            "requiredNickel": 4
+        }
+    },
+    "48": {
+        "description": "Bench 1",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredFiber": 2
+        }
+    },
+    "49": {
+        "description": "Bench 2",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredIron": 1
+        }
+    },
+    "50": {
+        "description": "Bench 3",
+        "required": {
+            "requiredAluminum": 1,
+            "requiredNickel": 1,
+            "requiredPolymer": 2
+        }
+    },
+    "51": {
+        "description": "Bench 4",
+        "required": {
+            "requiredAluminum": 1,
+            "requiredNickel": 1,
+            "requiredPolymer": 2
+        }
+    },
+    "52": {
+        "description": "Bench 5",
+        "required": {
+            "requiredPolymer": 2,
+            "requiredTitanium": 2
+        }
+    },
+    "53": {
+        "description": "Bench 6",
+        "required": {
+            "requiredIron": 2,
+            "requiredTitanium": 2
+        }
+    },
+    "54": {
+        "description": "Bookcase",
+        "required": {
+            "requiredAdhesive": 2,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "55": {
+        "description": "Bounty Poster",
+        "required": {
+            "requiredOrnamentalMaterial": 1,
+            "requiredStructuralMaterial": 1
+        }
+    },
+    "56": {
+        "description": "Bunk Bed",
+        "required": {
+            "requiredAluminum": 3,
+            "requiredFiber": 3
+        }
+    },
+    "57": {
+        "description": "Bunk Bed (variant)",
+        "required": {
+            "requiredFiber": 3,
+            "requiredStructuralMaterial": 3
+        }
+    },
+    "58": {
+        "description": "Cabinets",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredStructuralMaterial": 1
+        }
+    },
+    "59": {
+        "description": "Cargo Link",
+        "required": {
+            "requiredAluminum": 12,
+            "requiredBeryllium": 2,
+            "requiredIron": 20,
+            "requiredZeroWire": 2
+        }
+    },
+    "60": {
+        "description": "Cargo Link - Inter-System",
+        "required": {
+            "requiredAluminum": 12,
+            "requiredCommRelay": 1,
+            "requiredIron": 20,
+            "requiredReactiveGauge": 3
+        }
+    },
+    "61": {
+        "description": "Carts",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredIron": 1
+        }
+    },
+    "62": {
+        "description": "Chair 1",
+        "required": {
+            "requiredAdhesive": 1,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "63": {
+        "description": "Chair 10",
+        "required": {
+            "requiredAdhesive": 1,
+            "requiredFiber": 2,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "64": {
+        "description": "Chair 11",
+        "required": {
+            "requiredAdhesive": 2,
+            "requiredSealant": 2,
+            "requiredStructuralMaterial": 3
+        }
+    },
+    "65": {
+        "description": "Chair 12",
+        "required": {
+            "requiredAdhesive": 2,
+            "requiredLuxuryTextile": 1,
+            "requiredStructuralMaterial": 3
+        }
+    },
+    "66": {
+        "description": "Chair 13",
+        "required": {
+            "requiredAdhesive": 2,
+            "requiredLuxuryTextile": 1,
+            "requiredStructuralMaterial": 3
+        }
+    },
+    "67": {
+        "description": "Chair 14",
+        "required": {
+            "requiredAluminum": 3,
+            "requiredSealant": 2
+        }
+    },
+    "68": {
+        "description": "Chair 15",
+        "required": {
+            "requiredCopper": 3,
+            "requiredFiber": 2
+        }
+    },
+    "69": {
+        "description": "Chair 16",
+        "required": {
+            "requiredSealant": 2,
+            "requiredStructuralMaterial": 3
+        }
+    },
+    "70": {
+        "description": "Chair 2",
+        "required": {
+            "requiredAdhesive": 1,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "71": {
+        "description": "Chair 3",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredFiber": 2
+        }
+    },
+    "72": {
+        "description": "Chair 4",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredFiber": 2
+        }
+    },
+    "73": {
+        "description": "Chair 5",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredPolymer": 2
+        }
+    },
+    "74": {
+        "description": "Chair 6",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredPolymer": 2
+        }
+    },
+    "75": {
+        "description": "Chair 7",
+        "required": {
+            "requiredAluminum": 1,
+            "requiredFiber": 2,
+            "requiredNickel": 1
+        }
+    },
+    "76": {
+        "description": "Chair 8",
+        "required": {
+            "requiredAluminum": 1,
+            "requiredFiber": 2,
+            "requiredNickel": 1
+        }
+    },
+    "77": {
+        "description": "Chair 9",
+        "required": {
+            "requiredAdhesive": 1,
+            "requiredFiber": 2,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "78": {
+        "description": "Cleaning",
+        "required": {
+            "requiredCopper": 1,
+            "requiredIron": 2
+        }
+    },
+    "79": {
+        "description": "Coffee Maker",
+        "required": {
+            "requiredAluminum": 1,
+            "requiredCopper": 1,
+            "requiredSealant": 1
+        }
+    },
+    "80": {
+        "description": "Coffee Table",
+        "required": {
+            "requiredAdhesive": 2,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "81": {
+        "description": "Coffee Table (variant)",
+        "required": {
+            "requiredAluminum": 1,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "82": {
+        "description": "Compound Fabricator",
+        "required": {
+            "requiredAdhesive": 4,
+            "requiredIsotopicCoolant": 2,
+            "requiredTungsten": 8,
+            "requiredZeroWire": 5
+        }
+    },
+    "83": {
+        "description": "Conference Table",
+        "required": {
+            "requiredIron": 2,
+            "requiredStructuralMaterial": 3
+        }
+    },
+    "84": {
+        "description": "Console Desks",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredCopper": 2
+        }
+    },
+    "85": {
+        "description": "Constellation Mission Board",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredBeryllium": 2,
+            "requiredZeroWire": 2
+        }
+    },
+    "86": {
+        "description": "Containers (large)",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredStructuralMaterial": 4
+        }
+    },
+    "87": {
+        "description": "Containers (safe)",
+        "required": {
+            "requiredBeryllium": 1,
+            "requiredIron": 3
+        }
+    },
+    "88": {
+        "description": "Containers (small)",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "89": {
+        "description": "Cooking Station",
+        "required": {
+            "requiredAlkanes": 3,
+            "requiredCopper": 3,
+            "requiredIron": 4
+        }
+    },
+    "90": {
+        "description": "Couch 1",
+        "required": {
+            "requiredAluminum": 3,
+            "requiredFiber": 2
+        }
+    },
+    "91": {
+        "description": "Couch 2",
+        "required": {
+            "requiredFiber": 2,
+            "requiredStructuralMaterial": 3
+        }
+    },
+    "92": {
+        "description": "Couch 3",
+        "required": {
+            "requiredFiber": 2,
+            "requiredTitanium": 3
+        }
+    },
+    "93": {
+        "description": "Couch 4",
+        "required": {
+            "requiredFiber": 3,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "94": {
+        "description": "Couches",
+        "required": {
+            "requiredAluminum": 3,
+            "requiredFiber": 2
+        }
+    },
+    "95": {
+        "description": "Crew Station",
+        "required": {
+            "requiredAluminum": 5,
+            "requiredIron": 2,
+            "requiredNickel": 3
+        }
+    },
+    "96": {
+        "description": "Dart boards",
+        "required": {
+            "requiredOrnamentalMaterial": 1,
+            "requiredStructuralMaterial": 1
+        }
+    },
+    "97": {
+        "description": "Data Slate Display",
+        "required": {
+            "requiredAdhesive": 1,
+            "requiredAluminum": 1
+        }
+    },
+    "98": {
+        "description": "Data Slate Display (variant)",
+        "required": {
+            "requiredAdhesive": 1,
+            "requiredAluminum": 2
+        }
+    },
+    "99": {
+        "description": "Desk",
+        "required": {
+            "requiredAdhesive": 2,
+            "requiredStructuralMaterial": 3
+        }
+    },
+    "100": {
+        "description": "Desk (variant)",
+        "required": {
+            "requiredAdhesive": 2,
+            "requiredStructuralMaterial": 3
+        }
+    },
+    "101": {
+        "description": "Desk Monitor",
+        "required": {
+            "requiredAluminum": 1,
+            "requiredCopper": 1
+        }
+    },
+    "102": {
+        "description": "Desks",
+        "required": {
+            "requiredIron": 2,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "103": {
+        "description": "Diagnostic Machine",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredCopper": 1
+        }
+    },
+    "104": {
+        "description": "Display Case",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "105": {
+        "description": "Display Shelf",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredStructuralMaterial": 3
+        }
+    },
+    "106": {
+        "description": "Display Shelf (variant)",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "107": {
+        "description": "Drink Machine",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredCopper": 1,
+            "requiredSealant": 1
+        }
+    },
+    "108": {
+        "description": "Earth Globe",
+        "required": {
+            "requiredAdhesive": 1,
+            "requiredCopper": 1,
+            "requiredStructuralMaterial": 1
+        }
+    },
+    "109": {
+        "description": "End Table",
+        "required": {
+            "requiredAdhesive": 1,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "110": {
+        "description": "End Table (variant)",
+        "required": {
+            "requiredAluminum": 1,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "111": {
+        "description": "Engineering Robot",
+        "required": {
+            "requiredPolymer": 4,
+            "requiredPositronBattery": 1,
+            "requiredTitanium": 4,
+            "requiredUranium": 2,
+            "requiredZeroWire": 3
+        }
+    },
+    "112": {
+        "description": "Extractor - Aldumite",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredIron": 5,
+            "requiredTungsten": 2
+        }
+    },
+    "113": {
+        "description": "Extractor - Aldumite - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredDrillingRig": 1,
+            "requiredIsotopicCoolant": 2,
+            "requiredTungsten": 4
+        }
+    },
+    "114": {
+        "description": "Extractor - Aldumite - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAldumiteDrillingRig": 1,
+            "requiredIsotopicCoolant": 4,
+            "requiredTungsten": 6
+        }
+    },
+    "115": {
+        "description": "Extractor - Alkanes",
+        "required": {
+            "requiredAluminum": 5,
+            "requiredCopper": 3,
+            "requiredNickel": 4
+        }
+    },
+    "116": {
+        "description": "Extractor - Alkanes - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredMolecularSieve": 2,
+            "requiredReactiveGauge": 2,
+            "requiredVanadium": 4
+        }
+    },
+    "117": {
+        "description": "Extractor - Alkanes - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredReactiveGauge": 3,
+            "requiredSubstrateMoleculeSieve": 2,
+            "requiredVanadium": 6
+        }
+    },
+    "118": {
+        "description": "Extractor - Alkanes Vapor",
+        "required": {
+            "requiredAluminum": 5,
+            "requiredBenzene": 3,
+            "requiredMembrane": 4
+        }
+    },
+    "119": {
+        "description": "Extractor - Alkanes Vapor - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredAusteniticManifold": 1,
+            "requiredSemimetalWafer": 2,
+            "requiredTantalum": 4
+        }
+    },
+    "120": {
+        "description": "Extractor - Alkanes Vapor - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAusteniticManifold": 2,
+            "requiredIndiciteWafer": 2,
+            "requiredTantalum": 6
+        }
+    },
+    "121": {
+        "description": "Extractor - Aluminum",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredIron": 5,
+            "requiredTungsten": 2
+        }
+    },
+    "122": {
+        "description": "Extractor - Aluminum - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredDrillingRig": 1,
+            "requiredIsotopicCoolant": 2,
+            "requiredTungsten": 4
+        }
+    },
+    "123": {
+        "description": "Extractor - Aluminum - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAldumiteDrillingRig": 1,
+            "requiredIsotopicCoolant": 4,
+            "requiredTungsten": 6
+        }
+    },
+    "124": {
+        "description": "Extractor - Antimony",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredIron": 5,
+            "requiredTungsten": 2
+        }
+    },
+    "125": {
+        "description": "Extractor - Antimony - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredDrillingRig": 1,
+            "requiredIsotopicCoolant": 2,
+            "requiredTungsten": 4
+        }
+    },
+    "126": {
+        "description": "Extractor - Antimony - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAldumiteDrillingRig": 1,
+            "requiredIsotopicCoolant": 4,
+            "requiredTungsten": 6
+        }
+    },
+    "127": {
+        "description": "Extractor - Argon",
+        "required": {
+            "requiredAluminum": 5,
+            "requiredCopper": 3,
+            "requiredNickel": 4
+        }
+    },
+    "128": {
+        "description": "Extractor - Argon - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredMolecularSieve": 2,
+            "requiredReactiveGauge": 2,
+            "requiredVanadium": 4
+        }
+    },
+    "129": {
+        "description": "Extractor - Argon - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredReactiveGauge": 3,
+            "requiredSubstrateMoleculeSieve": 2,
+            "requiredVanadium": 6
+        }
+    },
+    "130": {
+        "description": "Extractor - Benzene",
+        "required": {
+            "requiredAluminum": 5,
+            "requiredBenzene": 3,
+            "requiredMembrane": 4
+        }
+    },
+    "131": {
+        "description": "Extractor - Benzene - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredMolecularSieve": 2,
+            "requiredReactiveGauge": 2,
+            "requiredVanadium": 4
+        }
+    },
+    "132": {
+        "description": "Extractor - Benzene - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredReactiveGauge": 3,
+            "requiredSubstrateMoleculeSieve": 2,
+            "requiredVanadium": 6
+        }
+    },
+    "133": {
+        "description": "Extractor - Benzene Vapor",
+        "required": {
+            "requiredAluminum": 5,
+            "requiredCopper": 3,
+            "requiredNickel": 4
+        }
+    },
+    "134": {
+        "description": "Extractor - Benzene Vapor - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredAusteniticManifold": 1,
+            "requiredSemimetalWafer": 2,
+            "requiredTantalum": 4
+        }
+    },
+    "135": {
+        "description": "Extractor - Benzene Vapor - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAusteniticManifold": 2,
+            "requiredIndiciteWafer": 2,
+            "requiredTantalum": 6
+        }
+    },
+    "136": {
+        "description": "Extractor - Beryllium",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredIron": 5,
+            "requiredTungsten": 2
+        }
+    },
+    "137": {
+        "description": "Extractor - Beryllium - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredDrillingRig": 1,
+            "requiredIsotopicCoolant": 2,
+            "requiredTungsten": 4
+        }
+    },
+    "138": {
+        "description": "Extractor - Beryllium - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAldumiteDrillingRig": 1,
+            "requiredIsotopicCoolant": 4,
+            "requiredTungsten": 6
+        }
+    },
+    "139": {
+        "description": "Extractor - Caesium",
+        "required": {
+            "requiredAluminum": 5,
+            "requiredIron": 3,
+            "requiredNickel": 4
+        }
+    },
+    "140": {
+        "description": "Extractor - Caesium - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredAusteniticManifold": 3,
+            "requiredMolecularSieve": 2,
+            "requiredTitanium": 4
+        }
+    },
+    "141": {
+        "description": "Extractor - Caesium - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredSubstrateMoleculeSieve": 2,
+            "requiredTitanium": 6,
+            "requiredVerylTreatedManifold": 3
+        }
+    },
+    "142": {
+        "description": "Extractor - Carboxylic Acids",
+        "required": {
+            "requiredAluminum": 5,
+            "requiredIron": 3,
+            "requiredNickel": 4
+        }
+    },
+    "143": {
+        "description": "Extractor - Carboxylic Acids - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredAusteniticManifold": 3,
+            "requiredMolecularSieve": 2,
+            "requiredTitanium": 4
+        }
+    },
+    "144": {
+        "description": "Extractor - Carboxylic Acids - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredSubstrateMoleculeSieve": 2,
+            "requiredTitanium": 6,
+            "requiredVerylTreatedManifold": 3
+        }
+    },
+    "145": {
+        "description": "Extractor - Chlorine",
+        "required": {
+            "requiredAluminum": 5,
+            "requiredCopper": 3,
+            "requiredNickel": 4
+        }
+    },
+    "146": {
+        "description": "Extractor - Chlorine - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredMolecularSieve": 2,
+            "requiredReactiveGauge": 2,
+            "requiredVanadium": 4
+        }
+    },
+    "147": {
+        "description": "Extractor - Chlorine - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredReactiveGauge": 3,
+            "requiredSubstrateMoleculeSieve": 2,
+            "requiredVanadium": 6
+        }
+    },
+    "148": {
+        "description": "Extractor - Chlorine Vapor",
+        "required": {
+            "requiredAluminum": 5,
+            "requiredBenzene": 3,
+            "requiredMembrane": 4
+        }
+    },
+    "149": {
+        "description": "Extractor - Chlorine Vapor - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredAusteniticManifold": 1,
+            "requiredSemimetalWafer": 2,
+            "requiredTantalum": 4
+        }
+    },
+    "150": {
+        "description": "Extractor - Chlorine Vapor - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAusteniticManifold": 2,
+            "requiredIndiciteWafer": 2,
+            "requiredTantalum": 6
+        }
+    },
+    "151": {
+        "description": "Extractor - Chlorosilanes",
+        "required": {
+            "requiredAluminum": 5,
+            "requiredIron": 3,
+            "requiredNickel": 4
+        }
+    },
+    "152": {
+        "description": "Extractor - Chlorosilanes - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredAusteniticManifold": 3,
+            "requiredMolecularSieve": 2,
+            "requiredTitanium": 4
+        }
+    },
+    "153": {
+        "description": "Extractor - Chlorosilanes - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredSubstrateMoleculeSieve": 2,
+            "requiredTitanium": 6,
+            "requiredVerylTreatedManifold": 3
+        }
+    },
+    "154": {
+        "description": "Extractor - Cobalt",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredIron": 5,
+            "requiredTungsten": 2
+        }
+    },
+    "155": {
+        "description": "Extractor - Cobalt - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredDrillingRig": 1,
+            "requiredIsotopicCoolant": 2,
+            "requiredTungsten": 4
+        }
+    },
+    "156": {
+        "description": "Extractor - Cobalt - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAldumiteDrillingRig": 1,
+            "requiredIsotopicCoolant": 4,
+            "requiredTungsten": 6
+        }
+    },
+    "157": {
+        "description": "Extractor - Copper",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredIron": 5,
+            "requiredTungsten": 2
+        }
+    },
+    "158": {
+        "description": "Extractor - Copper - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredDrillingRig": 1,
+            "requiredIsotopicCoolant": 2,
+            "requiredTungsten": 4
+        }
+    },
+    "159": {
+        "description": "Extractor - Copper - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAldumiteDrillingRig": 1,
+            "requiredIsotopicCoolant": 4,
+            "requiredTungsten": 6
+        }
+    },
+    "160": {
+        "description": "Extractor - Dysprosium",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredIron": 5,
+            "requiredTungsten": 2
+        }
+    },
+    "161": {
+        "description": "Extractor - Dysprosium - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredDrillingRig": 1,
+            "requiredIsotopicCoolant": 2,
+            "requiredTungsten": 4
+        }
+    },
+    "162": {
+        "description": "Extractor - Dysprosium - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAldumiteDrillingRig": 1,
+            "requiredIsotopicCoolant": 4,
+            "requiredTungsten": 6
+        }
+    },
+    "163": {
+        "description": "Extractor - Europium",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredIron": 5,
+            "requiredTungsten": 2
+        }
+    },
+    "164": {
+        "description": "Extractor - Europium - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredDrillingRig": 1,
+            "requiredIsotopicCoolant": 2,
+            "requiredTungsten": 4
+        }
+    },
+    "165": {
+        "description": "Extractor - Europium - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAldumiteDrillingRig": 1,
+            "requiredIsotopicCoolant": 4,
+            "requiredTungsten": 6
+        }
+    },
+    "166": {
+        "description": "Extractor - Fluorine",
+        "required": {
+            "requiredAluminum": 5,
+            "requiredCopper": 3,
+            "requiredNickel": 4
+        }
+    },
+    "167": {
+        "description": "Extractor - Fluorine - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredMolecularSieve": 2,
+            "requiredReactiveGauge": 2,
+            "requiredVanadium": 4
+        }
+    },
+    "168": {
+        "description": "Extractor - Fluorine - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredReactiveGauge": 3,
+            "requiredSubstrateMoleculeSieve": 2,
+            "requiredVanadium": 6
+        }
+    },
+    "169": {
+        "description": "Extractor - Fluorine Vapor",
+        "required": {
+            "requiredAluminum": 5,
+            "requiredBenzene": 3,
+            "requiredMembrane": 4
+        }
+    },
+    "170": {
+        "description": "Extractor - Fluorine Vapor - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredAusteniticManifold": 1,
+            "requiredSemimetalWafer": 2,
+            "requiredTantalum": 4
+        }
+    },
+    "171": {
+        "description": "Extractor - Fluorine Vapor - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAusteniticManifold": 2,
+            "requiredIndiciteWafer": 2,
+            "requiredTantalum": 6
+        }
+    },
+    "172": {
+        "description": "Extractor - Gold",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredIron": 5,
+            "requiredTungsten": 2
+        }
+    },
+    "173": {
+        "description": "Extractor - Gold - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredDrillingRig": 1,
+            "requiredIsotopicCoolant": 2,
+            "requiredTungsten": 4
+        }
+    },
+    "174": {
+        "description": "Extractor - Gold - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAldumiteDrillingRig": 1,
+            "requiredIsotopicCoolant": 4,
+            "requiredTungsten": 6
+        }
+    },
+    "175": {
+        "description": "Extractor - Helium-3",
+        "required": {
+            "requiredAluminum": 5,
+            "requiredCopper": 3,
+            "requiredNickel": 4
+        }
+    },
+    "176": {
+        "description": "Extractor - Helium-3 - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredMolecularSieve": 2,
+            "requiredReactiveGauge": 2,
+            "requiredVanadium": 4
+        }
+    },
+    "177": {
+        "description": "Extractor - Helium-3 - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredReactiveGauge": 3,
+            "requiredSubstrateMoleculeSieve": 2,
+            "requiredVanadium": 6
+        }
+    },
+    "178": {
+        "description": "Extractor - Helium-3 Vapor",
+        "required": {
+            "requiredAluminum": 5,
+            "requiredBenzene": 3,
+            "requiredMembrane": 4
+        }
+    },
+    "179": {
+        "description": "Extractor - Helium-3 Vapor - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredAusteniticManifold": 1,
+            "requiredSemimetalWafer": 2,
+            "requiredTantalum": 4
+        }
+    },
+    "180": {
+        "description": "Extractor - Helium-3 Vapor - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAusteniticManifold": 2,
+            "requiredIndiciteWafer": 2,
+            "requiredTantalum": 6
+        }
+    },
+    "181": {
+        "description": "Extractor - Indicite",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredIron": 5,
+            "requiredTungsten": 2
+        }
+    },
+    "182": {
+        "description": "Extractor - Indicite - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredDrillingRig": 1,
+            "requiredIsotopicCoolant": 2,
+            "requiredTungsten": 4
+        }
+    },
+    "183": {
+        "description": "Extractor - Indicite - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAldumiteDrillingRig": 1,
+            "requiredIsotopicCoolant": 4,
+            "requiredTungsten": 6
+        }
+    },
+    "184": {
+        "description": "Extractor - Ionic Liquids",
+        "required": {
+            "requiredAluminum": 5,
+            "requiredIron": 3,
+            "requiredNickel": 4
+        }
+    },
+    "185": {
+        "description": "Extractor - Ionic Liquids - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredAusteniticManifold": 3,
+            "requiredMolecularSieve": 2,
+            "requiredTitanium": 4
+        }
+    },
+    "186": {
+        "description": "Extractor - Ionic Liquids - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredSubstrateMoleculeSieve": 2,
+            "requiredTitanium": 6,
+            "requiredVerylTreatedManifold": 3
+        }
+    },
+    "187": {
+        "description": "Extractor - Iridium",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredIron": 5,
+            "requiredTungsten": 2
+        }
+    },
+    "188": {
+        "description": "Extractor - Iridium - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredDrillingRig": 1,
+            "requiredIsotopicCoolant": 2,
+            "requiredTungsten": 4
+        }
+    },
+    "189": {
+        "description": "Extractor - Iridium - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAldumiteDrillingRig": 1,
+            "requiredIsotopicCoolant": 4,
+            "requiredTungsten": 6
+        }
+    },
+    "190": {
+        "description": "Extractor - Iron",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredIron": 5,
+            "requiredTungsten": 2
+        }
+    },
+    "191": {
+        "description": "Extractor - Iron - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredDrillingRig": 1,
+            "requiredIsotopicCoolant": 2,
+            "requiredTungsten": 4
+        }
+    },
+    "192": {
+        "description": "Extractor - Iron - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAldumiteDrillingRig": 1,
+            "requiredIsotopicCoolant": 4,
+            "requiredTungsten": 6
+        }
+    },
+    "193": {
+        "description": "Extractor - Lead",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredIron": 5,
+            "requiredTungsten": 2
+        }
+    },
+    "194": {
+        "description": "Extractor - Lead - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredDrillingRig": 1,
+            "requiredIsotopicCoolant": 2,
+            "requiredTungsten": 4
+        }
+    },
+    "195": {
+        "description": "Extractor - Lead - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAldumiteDrillingRig": 1,
+            "requiredIsotopicCoolant": 4,
+            "requiredTungsten": 6
+        }
+    },
+    "196": {
+        "description": "Extractor - Lithium",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredIron": 5,
+            "requiredTungsten": 2
+        }
+    },
+    "197": {
+        "description": "Extractor - Lithium - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredDrillingRig": 1,
+            "requiredIsotopicCoolant": 2,
+            "requiredTungsten": 4
+        }
+    },
+    "198": {
+        "description": "Extractor - Lithium - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAldumiteDrillingRig": 1,
+            "requiredIsotopicCoolant": 4,
+            "requiredTungsten": 6
+        }
+    },
+    "199": {
+        "description": "Extractor - Mercury",
+        "required": {
+            "requiredAluminum": 5,
+            "requiredIron": 3,
+            "requiredNickel": 4
+        }
+    },
+    "200": {
+        "description": "Extractor - Mercury - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredAusteniticManifold": 3,
+            "requiredMolecularSieve": 2,
+            "requiredTitanium": 4
+        }
+    },
+    "201": {
+        "description": "Extractor - Mercury - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredSubstrateMoleculeSieve": 2,
+            "requiredTitanium": 6,
+            "requiredVerylTreatedManifold": 3
+        }
+    },
+    "202": {
+        "description": "Extractor - Neodymium",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredIron": 5,
+            "requiredTungsten": 2
+        }
+    },
+    "203": {
+        "description": "Extractor - Neodymium - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredDrillingRig": 1,
+            "requiredIsotopicCoolant": 2,
+            "requiredTungsten": 4
+        }
+    },
+    "204": {
+        "description": "Extractor - Neodymium - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAldumiteDrillingRig": 1,
+            "requiredIsotopicCoolant": 4,
+            "requiredTungsten": 6
+        }
+    },
+    "205": {
+        "description": "Extractor - Neon",
+        "required": {
+            "requiredAluminum": 5,
+            "requiredCopper": 3,
+            "requiredNickel": 4
+        }
+    },
+    "206": {
+        "description": "Extractor - Neon - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredMolecularSieve": 2,
+            "requiredReactiveGauge": 2,
+            "requiredVanadium": 4
+        }
+    },
+    "207": {
+        "description": "Extractor - Neon - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredReactiveGauge": 3,
+            "requiredSubstrateMoleculeSieve": 2,
+            "requiredVanadium": 6
+        }
+    },
+    "208": {
+        "description": "Extractor - Nickel",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredIron": 5,
+            "requiredTungsten": 2
+        }
+    },
+    "209": {
+        "description": "Extractor - Nickel - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredDrillingRig": 1,
+            "requiredIsotopicCoolant": 2,
+            "requiredTungsten": 4
+        }
+    },
+    "210": {
+        "description": "Extractor - Nickel - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAldumiteDrillingRig": 1,
+            "requiredIsotopicCoolant": 4,
+            "requiredTungsten": 6
+        }
+    },
+    "211": {
+        "description": "Extractor - Palladium",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredIron": 5,
+            "requiredTungsten": 2
+        }
+    },
+    "212": {
+        "description": "Extractor - Palladium - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredDrillingRig": 1,
+            "requiredIsotopicCoolant": 2,
+            "requiredTungsten": 4
+        }
+    },
+    "213": {
+        "description": "Extractor - Palladium - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAldumiteDrillingRig": 1,
+            "requiredIsotopicCoolant": 4,
+            "requiredTungsten": 6
+        }
+    },
+    "214": {
+        "description": "Extractor - Platinum",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredIron": 5,
+            "requiredTungsten": 2
+        }
+    },
+    "215": {
+        "description": "Extractor - Platinum - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredDrillingRig": 1,
+            "requiredIsotopicCoolant": 2,
+            "requiredTungsten": 4
+        }
+    },
+    "216": {
+        "description": "Extractor - Platinum - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAldumiteDrillingRig": 1,
+            "requiredIsotopicCoolant": 4,
+            "requiredTungsten": 6
+        }
+    },
+    "217": {
+        "description": "Extractor - Plutonium",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredIron": 5,
+            "requiredTungsten": 2
+        }
+    },
+    "218": {
+        "description": "Extractor - Plutonium - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredDrillingRig": 1,
+            "requiredIsotopicCoolant": 2,
+            "requiredTungsten": 4
+        }
+    },
+    "219": {
+        "description": "Extractor - Plutonium - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAldumiteDrillingRig": 1,
+            "requiredIsotopicCoolant": 4,
+            "requiredTungsten": 6
+        }
+    },
+    "220": {
+        "description": "Extractor - Rothicite",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredIron": 5,
+            "requiredTungsten": 2
+        }
+    },
+    "221": {
+        "description": "Extractor - Rothicite - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredDrillingRig": 1,
+            "requiredIsotopicCoolant": 2,
+            "requiredTungsten": 4
+        }
+    },
+    "222": {
+        "description": "Extractor - Rothicite - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAldumiteDrillingRig": 1,
+            "requiredIsotopicCoolant": 4,
+            "requiredTungsten": 6
+        }
+    },
+    "223": {
+        "description": "Extractor - Silver",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredIron": 5,
+            "requiredTungsten": 2
+        }
+    },
+    "224": {
+        "description": "Extractor - Silver - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredDrillingRig": 1,
+            "requiredIsotopicCoolant": 2,
+            "requiredTungsten": 4
+        }
+    },
+    "225": {
+        "description": "Extractor - Silver - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAldumiteDrillingRig": 1,
+            "requiredIsotopicCoolant": 4,
+            "requiredTungsten": 6
+        }
+    },
+    "226": {
+        "description": "Extractor - Tantalum",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredIron": 5,
+            "requiredTungsten": 2
+        }
+    },
+    "227": {
+        "description": "Extractor - Tantalum - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredDrillingRig": 1,
+            "requiredIsotopicCoolant": 2,
+            "requiredTungsten": 4
+        }
+    },
+    "228": {
+        "description": "Extractor - Tantalum - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAldumiteDrillingRig": 1,
+            "requiredIsotopicCoolant": 4,
+            "requiredTungsten": 6
+        }
+    },
+    "229": {
+        "description": "Extractor - Tasine",
+        "required": {
+            "requiredAluminum": 5,
+            "requiredIron": 3,
+            "requiredNickel": 4
+        }
+    },
+    "230": {
+        "description": "Extractor - Tasine - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredAusteniticManifold": 3,
+            "requiredMolecularSieve": 2,
+            "requiredTitanium": 4
+        }
+    },
+    "231": {
+        "description": "Extractor - Tasine - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredSubstrateMoleculeSieve": 2,
+            "requiredTitanium": 6,
+            "requiredVerylTreatedManifold": 3
+        }
+    },
+    "232": {
+        "description": "Extractor - Tetrafluorides",
+        "required": {
+            "requiredAluminum": 5,
+            "requiredIron": 3,
+            "requiredNickel": 4
+        }
+    },
+    "233": {
+        "description": "Extractor - Tetrafluorides - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredAusteniticManifold": 3,
+            "requiredMolecularSieve": 2,
+            "requiredTitanium": 4
+        }
+    },
+    "234": {
+        "description": "Extractor - Tetrafluorides - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredSubstrateMoleculeSieve": 2,
+            "requiredTitanium": 6,
+            "requiredVerylTreatedManifold": 3
+        }
+    },
+    "235": {
+        "description": "Extractor - Titanium",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredIron": 5,
+            "requiredTungsten": 2
+        }
+    },
+    "236": {
+        "description": "Extractor - Titanium - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredDrillingRig": 1,
+            "requiredIsotopicCoolant": 2,
+            "requiredTungsten": 4
+        }
+    },
+    "237": {
+        "description": "Extractor - Titanium - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAldumiteDrillingRig": 1,
+            "requiredIsotopicCoolant": 4,
+            "requiredTungsten": 6
+        }
+    },
+    "238": {
+        "description": "Extractor - Tungsten",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredIron": 5,
+            "requiredTungsten": 2
+        }
+    },
+    "239": {
+        "description": "Extractor - Tungsten - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredDrillingRig": 1,
+            "requiredIsotopicCoolant": 2,
+            "requiredTungsten": 4
+        }
+    },
+    "240": {
+        "description": "Extractor - Tungsten - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAldumiteDrillingRig": 1,
+            "requiredIsotopicCoolant": 4,
+            "requiredTungsten": 6
+        }
+    },
+    "241": {
+        "description": "Extractor - Uranium",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredIron": 5,
+            "requiredTungsten": 2
+        }
+    },
+    "242": {
+        "description": "Extractor - Uranium - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredDrillingRig": 1,
+            "requiredIsotopicCoolant": 2,
+            "requiredTungsten": 4
+        }
+    },
+    "243": {
+        "description": "Extractor - Uranium - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAldumiteDrillingRig": 1,
+            "requiredIsotopicCoolant": 4,
+            "requiredTungsten": 6
+        }
+    },
+    "244": {
+        "description": "Extractor - Vanadium",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredIron": 5,
+            "requiredTungsten": 2
+        }
+    },
+    "245": {
+        "description": "Extractor - Vanadium - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredDrillingRig": 1,
+            "requiredIsotopicCoolant": 2,
+            "requiredTungsten": 4
+        }
+    },
+    "246": {
+        "description": "Extractor - Vanadium - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAldumiteDrillingRig": 1,
+            "requiredIsotopicCoolant": 4,
+            "requiredTungsten": 6
+        }
+    },
+    "247": {
+        "description": "Extractor - Veryl",
+        "required": {
+            "requiredAluminum": 5,
+            "requiredCopper": 3,
+            "requiredNickel": 4
+        }
+    },
+    "248": {
+        "description": "Extractor - Veryl - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredMolecularSieve": 2,
+            "requiredReactiveGauge": 2,
+            "requiredVanadium": 4
+        }
+    },
+    "249": {
+        "description": "Extractor - Veryl - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredReactiveGauge": 3,
+            "requiredSubstrateMoleculeSieve": 2,
+            "requiredVanadium": 6
+        }
+    },
+    "250": {
+        "description": "Extractor - Vytinium",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredIron": 5,
+            "requiredTungsten": 2
+        }
+    },
+    "251": {
+        "description": "Extractor - Vytinium - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredDrillingRig": 1,
+            "requiredIsotopicCoolant": 2,
+            "requiredTungsten": 4
+        }
+    },
+    "252": {
+        "description": "Extractor - Vytinium - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAldumiteDrillingRig": 1,
+            "requiredIsotopicCoolant": 4,
+            "requiredTungsten": 6
+        }
+    },
+    "253": {
+        "description": "Extractor - Water",
+        "required": {
+            "requiredAluminum": 5,
+            "requiredIron": 3,
+            "requiredNickel": 4
+        }
+    },
+    "254": {
+        "description": "Extractor - Water - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredAusteniticManifold": 3,
+            "requiredMolecularSieve": 2,
+            "requiredTitanium": 4
+        }
+    },
+    "255": {
+        "description": "Extractor - Water - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredSubstrateMoleculeSieve": 2,
+            "requiredTitanium": 6,
+            "requiredVerylTreatedManifold": 3
+        }
+    },
+    "256": {
+        "description": "Extractor - Water Vapor",
+        "required": {
+            "requiredAluminum": 5,
+            "requiredBenzene": 3,
+            "requiredMembrane": 4
+        }
+    },
+    "257": {
+        "description": "Extractor - Water Vapor - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredAusteniticManifold": 1,
+            "requiredSemimetalWafer": 2,
+            "requiredTantalum": 4
+        }
+    },
+    "258": {
+        "description": "Extractor - Water Vapor - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAusteniticManifold": 2,
+            "requiredIndiciteWafer": 2,
+            "requiredTantalum": 6
+        }
+    },
+    "259": {
+        "description": "Extractor - Xenon",
+        "required": {
+            "requiredAluminum": 5,
+            "requiredCopper": 3,
+            "requiredNickel": 4
+        }
+    },
+    "260": {
+        "description": "Extractor - Xenon - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredMolecularSieve": 2,
+            "requiredReactiveGauge": 2,
+            "requiredVanadium": 4
+        }
+    },
+    "261": {
+        "description": "Extractor - Xenon - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredReactiveGauge": 3,
+            "requiredSubstrateMoleculeSieve": 2,
+            "requiredVanadium": 6
+        }
+    },
+    "262": {
+        "description": "Extractor - Ytterbium",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredIron": 5,
+            "requiredTungsten": 2
+        }
+    },
+    "263": {
+        "description": "Extractor - Ytterbium - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredDrillingRig": 1,
+            "requiredIsotopicCoolant": 2,
+            "requiredTungsten": 4
+        }
+    },
+    "264": {
+        "description": "Extractor - Ytterbium - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAldumiteDrillingRig": 1,
+            "requiredIsotopicCoolant": 4,
+            "requiredTungsten": 6
+        }
+    },
+    "265": {
+        "description": "Fancy Bookcase",
+        "required": {
+            "requiredPolymer": 2,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "266": {
+        "description": "Fancy Sofa",
+        "required": {
+            "requiredAdhesive": 2,
+            "requiredLuxuryTextile": 2,
+            "requiredStructuralMaterial": 3
+        }
+    },
+    "267": {
+        "description": "Flood Lamps",
+        "required": {
+            "requiredAluminum": 1,
+            "requiredArgon": 1
+        }
+    },
+    "268": {
+        "description": "Floor Mats",
+        "required": {
+            "requiredPolymer": 1,
+            "requiredStructuralMaterial": 1
+        }
+    },
+    "269": {
+        "description": "Four Wall Hab",
+        "required": {
+            "requiredAluminum": 6,
+            "requiredLead": 4,
+            "requiredSealant": 3
+        }
+    },
+    "270": {
+        "description": "Four Wall Hab - Double",
+        "required": {
+            "requiredAluminum": 10,
+            "requiredLead": 6,
+            "requiredSealant": 5
+        }
+    },
+    "271": {
+        "description": "Fueled Generator",
+        "required": {
+            "requiredAusteniticManifold": 1,
+            "requiredIsocenteredMagnet": 1,
+            "requiredTauGradeRheostat": 1,
+            "requiredTungsten": 4
+        }
+    },
+    "272": {
+        "description": "Garden Mini Bot",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredBeryllium": 3,
+            "requiredZeroWire": 2
+        }
+    },
+    "273": {
+        "description": "Greenhouse",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredFluorine": 4,
+            "requiredReactiveGauge": 3,
+            "requiredSealant": 3
+        }
+    },
+    "274": {
+        "description": "Greenhouse - Commercial",
+        "required": {
+            "requiredAdaptiveFrame": 7,
+            "requiredFluorine": 8,
+            "requiredMolecularSieve": 2,
+            "requiredSealant": 6
+        }
+    },
+    "275": {
+        "description": "Greenhouse - Industrial",
+        "required": {
+            "requiredAdaptiveFrame": 9,
+            "requiredFluorine": 12,
+            "requiredSealant": 9,
+            "requiredSubstrateMoleculeSieve": 2
+        }
+    },
+    "276": {
+        "description": "Hab Round",
+        "required": {
+            "requiredAluminum": 8,
+            "requiredLead": 6,
+            "requiredSealant": 4
+        }
+    },
+    "277": {
+        "description": "Hallway - Hydroponic",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredLead": 1,
+            "requiredSealant": 2
+        }
+    },
+    "278": {
+        "description": "Hallway - Industrial",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredLead": 1,
+            "requiredSealant": 2
+        }
+    },
+    "279": {
+        "description": "Hallway - Military",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredLead": 1,
+            "requiredSealant": 2
+        }
+    },
+    "280": {
+        "description": "Hallway - Science",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredLead": 1,
+            "requiredSealant": 2
+        }
+    },
+    "281": {
+        "description": "Hand Carts",
+        "required": {
+            "requiredAluminum": 1,
+            "requiredIron": 1
+        }
+    },
+    "282": {
+        "description": "Hanging Plants",
+        "required": {
+            "requiredFiber": 1,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "283": {
+        "description": "Hanging Rug",
+        "required": {
+            "requiredFiber": 1,
+            "requiredOrnamentalMaterial": 1,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "284": {
+        "description": "Helmet Case",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredStructuralMaterial": 1
+        }
+    },
+    "285": {
+        "description": "Hydroponic Hab A",
+        "required": {
+            "requiredAluminum": 6,
+            "requiredIron": 4,
+            "requiredSealant": 3
+        }
+    },
+    "286": {
+        "description": "Hydroponic Hab B",
+        "required": {
+            "requiredAluminum": 6,
+            "requiredIron": 4,
+            "requiredSealant": 3
+        }
+    },
+    "287": {
+        "description": "Hydroponic Hab Round",
+        "required": {
+            "requiredAluminum": 8,
+            "requiredLead": 6,
+            "requiredSealant": 4
+        }
+    },
+    "288": {
+        "description": "Industrial Light Post",
+        "required": {
+            "requiredAdaptiveFrame": 4,
+            "requiredXenon": 4,
+            "requiredZeroWire": 3
+        }
+    },
+    "289": {
+        "description": "Industrial Wall Light",
+        "required": {
+            "requiredAluminum": 1,
+            "requiredArgon": 1,
+            "requiredCopper": 1
+        }
+    },
+    "290": {
+        "description": "Industrial Wall Lights",
+        "required": {
+            "requiredAluminum": 1,
+            "requiredArgon": 1,
+            "requiredCopper": 1
+        }
+    },
+    "291": {
+        "description": "Industrial Workbench",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredIron": 3
+        }
+    },
+    "292": {
+        "description": "Landing Pad - Small",
+        "required": {
+            "requiredAluminum": 8,
+            "requiredIron": 20
+        }
+    },
+    "293": {
+        "description": "Landing Pad with Shipbuilder",
+        "required": {
+            "requiredAdaptiveFrame": 18,
+            "requiredBeryllium": 2,
+            "requiredIron": 30,
+            "requiredZeroWire": 2
+        }
+    },
+    "294": {
+        "description": "Large Hex Hab",
+        "required": {
+            "requiredAluminum": 14,
+            "requiredLead": 10,
+            "requiredSealant": 8
+        }
+    },
+    "295": {
+        "description": "Laser Turret Mk I",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredBeryllium": 2,
+            "requiredChlorine": 2,
+            "requiredFluorine": 3
+        }
+    },
+    "296": {
+        "description": "Laser Turret Mk II",
+        "required": {
+            "requiredIridium": 3,
+            "requiredParamagnonConductor": 2,
+            "requiredTauGradeRheostat": 1,
+            "requiredTitanium": 4
+        }
+    },
+    "297": {
+        "description": "Laser Turret Mk III",
+        "required": {
+            "requiredIsotopicCoolant": 2,
+            "requiredTasineSuperconductor": 2,
+            "requiredTitanium": 6,
+            "requiredXenon": 3
+        }
+    },
+    "298": {
+        "description": "Light Post",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredCopper": 3,
+            "requiredXenon": 2
+        }
+    },
+    "299": {
+        "description": "Light Posts",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredCopper": 3,
+            "requiredXenon": 2
+        }
+    },
+    "300": {
+        "description": "Light Posts (variant)",
+        "required": {
+            "requiredAdaptiveFrame": 4,
+            "requiredXenon": 4,
+            "requiredZeroWire": 3
+        }
+    },
+    "301": {
+        "description": "Logistics Robot",
+        "required": {
+            "requiredPolymer": 4,
+            "requiredPositronBattery": 1,
+            "requiredTitanium": 4,
+            "requiredUranium": 2,
+            "requiredZeroWire": 3
+        }
+    },
+    "302": {
+        "description": "Long Oval Table",
+        "required": {
+            "requiredStructuralMaterial": 3,
+            "requiredTitanium": 2
+        }
+    },
+    "303": {
+        "description": "Long Table",
+        "required": {
+            "requiredStructuralMaterial": 3,
+            "requiredTitanium": 2
+        }
+    },
+    "304": {
+        "description": "Mannequins",
+        "required": {
+            "requiredAdhesive": 2,
+            "requiredPigment": 1,
+            "requiredPolymer": 2,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "305": {
+        "description": "Mannequins (variant 1)",
+        "required": {
+            "requiredAdhesive": 2,
+            "requiredPigment": 1,
+            "requiredPolymer": 2,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "306": {
+        "description": "Mannequins (variant 2)",
+        "required": {
+            "requiredAdhesive": 2,
+            "requiredPigment": 1,
+            "requiredPolymer": 2,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "307": {
+        "description": "Mannequins (variant 3)",
+        "required": {
+            "requiredAdhesive": 2,
+            "requiredPigment": 1,
+            "requiredPolymer": 2,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "308": {
+        "description": "Metal Sculpture",
+        "required": {
+            "requiredCopper": 2,
+            "requiredSilver": 2
+        }
+    },
+    "309": {
+        "description": "Military Hab",
+        "required": {
+            "requiredLead": 4,
+            "requiredSealant": 3,
+            "requiredTitanium": 6
+        }
+    },
+    "310": {
+        "description": "Mission Board",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredBeryllium": 2,
+            "requiredZeroWire": 2
+        }
+    },
+    "311": {
+        "description": "Model Ship (starship)",
+        "required": {
+            "requiredAdhesive": 1,
+            "requiredPigment": 1,
+            "requiredPolymer": 1
+        }
+    },
+    "312": {
+        "description": "Model Ship (wooden)",
+        "required": {
+            "requiredAdhesive": 1,
+            "requiredPigment": 1,
+            "requiredStructuralMaterial": 1
+        }
+    },
+    "313": {
+        "description": "Mounted Ashta",
+        "required": {
+            "requiredAdhesive": 2,
+            "requiredFiber": 2,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "314": {
+        "description": "Mounted Beetle Crab",
+        "required": {
+            "requiredAdhesive": 2,
+            "requiredFiber": 2,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "315": {
+        "description": "Mounted Lock Jaw",
+        "required": {
+            "requiredAdhesive": 2,
+            "requiredFiber": 2,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "316": {
+        "description": "Mounted Radar Face",
+        "required": {
+            "requiredAdhesive": 2,
+            "requiredFiber": 2,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "317": {
+        "description": "Mounted Red Mile Apex",
+        "required": {
+            "requiredAdhesive": 2,
+            "requiredFiber": 2,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "318": {
+        "description": "Mounted Sea Bat",
+        "required": {
+            "requiredAdhesive": 2,
+            "requiredFiber": 2,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "319": {
+        "description": "Multiplex Fabricator",
+        "required": {
+            "requiredLubricant": 6,
+            "requiredPolymer": 8,
+            "requiredPositronBattery": 3,
+            "requiredTitanium": 8
+        }
+    },
+    "320": {
+        "description": "Navigation Consoles",
+        "required": {
+            "requiredBeryllium": 2,
+            "requiredCopper": 2,
+            "requiredIron": 2
+        }
+    },
+    "321": {
+        "description": "ObservatoryFree Creation",
+        "required": {
+            "requiredAluminum": 14,
+            "requiredLead": 10,
+            "requiredSealant": 8
+        }
+    },
+    "322": {
+        "description": "Old Computer",
+        "required": {
+            "requiredAdhesive": 1,
+            "requiredAluminum": 2,
+            "requiredCopper": 2
+        }
+    },
+    "323": {
+        "description": "Orrery Table",
+        "required": {
+            "requiredCopper": 2,
+            "requiredGold": 2,
+            "requiredStructuralMaterial": 3
+        }
+    },
+    "324": {
+        "description": "Outpost Airlock",
+        "required": {
+            "requiredAluminum": 3,
+            "requiredLead": 2,
+            "requiredSealant": 3
+        }
+    },
+    "325": {
+        "description": "Outpost Beacon",
+        "required": {}
+    },
+    "326": {
+        "description": "Oval Rug",
+        "required": {
+            "requiredFiber": 2,
+            "requiredOrnamentalMaterial": 1
+        }
+    },
+    "327": {
+        "description": "Pedestals",
+        "required": {
+            "requiredCopper": 2,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "328": {
+        "description": "Pedestals (empty)",
+        "required": {
+            "requiredOrnamentalMaterial": 1,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "329": {
+        "description": "Pharmaceutical Lab",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredBenzene": 3,
+            "requiredChlorine": 4,
+            "requiredIron": 3
+        }
+    },
+    "330": {
+        "description": "Picture Frame",
+        "required": {
+            "requiredPigment": 1,
+            "requiredStructuralMaterial": 1
+        }
+    },
+    "331": {
+        "description": "Plant Shelf",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "332": {
+        "description": "Planters",
+        "required": {
+            "requiredFiber": 2,
+            "requiredStructuralMaterial": 3
+        }
+    },
+    "333": {
+        "description": "Portable Stove Top",
+        "required": {
+            "requiredAlkanes": 1,
+            "requiredIron": 1
+        }
+    },
+    "334": {
+        "description": "Posters",
+        "required": {
+            "requiredOrnamentalMaterial": 1,
+            "requiredStructuralMaterial": 1
+        }
+    },
+    "335": {
+        "description": "Posters (variant 1)",
+        "required": {
+            "requiredOrnamentalMaterial": 1,
+            "requiredStructuralMaterial": 1
+        }
+    },
+    "336": {
+        "description": "Posters (variant 2)",
+        "required": {
+            "requiredOrnamentalMaterial": 1,
+            "requiredStructuralMaterial": 1
+        }
+    },
+    "337": {
+        "description": "Potted Plants",
+        "required": {
+            "requiredFiber": 1,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "338": {
+        "description": "Power Management Robot",
+        "required": {
+            "requiredPolymer": 4,
+            "requiredPositronBattery": 1,
+            "requiredTitanium": 4,
+            "requiredUranium": 2,
+            "requiredZeroWire": 3
+        }
+    },
+    "339": {
+        "description": "Powered Switch",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredCopper": 2
+        }
+    },
+    "340": {
+        "description": "Punching Bag",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredIron": 2,
+            "requiredStructuralMaterial": 1
+        }
+    },
+    "341": {
+        "description": "Reactor",
+        "required": {
+            "requiredAdaptiveFrame": 6,
+            "requiredControlRod": 3,
+            "requiredLead": 10,
+            "requiredNuclearFuelRod": 8,
+            "requiredParamagnonConductor": 4,
+            "requiredSupercooledMagnet": 5,
+            "requiredTauGradeRheostat": 3
+        }
+    },
+    "342": {
+        "description": "Reactor - Advanced",
+        "required": {
+            "requiredAdaptiveFrame": 10,
+            "requiredControlRod": 5,
+            "requiredLead": 20,
+            "requiredPowerCircuit": 3,
+            "requiredRothiciteMagnet": 5,
+            "requiredTasineSuperconductor": 4,
+            "requiredVytiniumFuelRod": 8
+        }
+    },
+    "343": {
+        "description": "Rectangle Rug",
+        "required": {
+            "requiredFiber": 3,
+            "requiredLuxuryTextile": 1
+        }
+    },
+    "344": {
+        "description": "Refrigerator",
+        "required": {
+            "requiredFluorine": 1,
+            "requiredIron": 2
+        }
+    },
+    "345": {
+        "description": "Research Lab",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredBeryllium": 2,
+            "requiredCopper": 2
+        }
+    },
+    "346": {
+        "description": "Room Dividers",
+        "required": {
+            "requiredAluminum": 1,
+            "requiredStructuralMaterial": 1
+        }
+    },
+    "347": {
+        "description": "Round Rug",
+        "required": {
+            "requiredFiber": 2,
+            "requiredOrnamentalMaterial": 1
+        }
+    },
+    "348": {
+        "description": "Rug",
+        "required": {
+            "requiredFiber": 2,
+            "requiredOrnamentalMaterial": 1
+        }
+    },
+    "349": {
+        "description": "Rug (variant)",
+        "required": {
+            "requiredFiber": 3,
+            "requiredLuxuryTextile": 2
+        }
+    },
+    "350": {
+        "description": "Sanitation Mini Bot",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredBeryllium": 3,
+            "requiredZeroWire": 2
+        }
+    },
+    "351": {
+        "description": "Scan Booster",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredBeryllium": 2,
+            "requiredCopper": 3
+        }
+    },
+    "352": {
+        "description": "Scan Booster - Advanced",
+        "required": {
+            "requiredAluminum": 5,
+            "requiredCommRelay": 1,
+            "requiredIsocenteredMagnet": 1,
+            "requiredZeroWire": 3
+        }
+    },
+    "353": {
+        "description": "Scan Booster - Military Grade",
+        "required": {
+            "requiredAluminum": 6,
+            "requiredCommRelay": 1,
+            "requiredParamagnonConductor": 1,
+            "requiredSupercooledMagnet": 1
+        }
+    },
+    "354": {
+        "description": "Science Hab Flat Small",
+        "required": {
+            "requiredAluminum": 6,
+            "requiredLead": 4,
+            "requiredSealant": 3
+        }
+    },
+    "355": {
+        "description": "Science Hab Small",
+        "required": {
+            "requiredAluminum": 6,
+            "requiredLead": 4,
+            "requiredSealant": 3
+        }
+    },
+    "356": {
+        "description": "Sculpture",
+        "required": {
+            "requiredCopper": 2,
+            "requiredIron": 3
+        }
+    },
+    "357": {
+        "description": "Security Mini Bot",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredBeryllium": 3,
+            "requiredZeroWire": 2
+        }
+    },
+    "358": {
+        "description": "Security Robot",
+        "required": {
+            "requiredMicrosecondRegulator": 1,
+            "requiredParamagnonConductor": 3,
+            "requiredPlutonium": 2,
+            "requiredPolymer": 5,
+            "requiredTitanium": 6
+        }
+    },
+    "359": {
+        "description": "Security Robot (armored)",
+        "required": {
+            "requiredParamagnonConductor": 2,
+            "requiredPolymer": 4,
+            "requiredPositronBattery": 1,
+            "requiredTitanium": 4,
+            "requiredUranium": 2
+        }
+    },
+    "360": {
+        "description": "Self-Service Bounty Clearance",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredBeryllium": 2,
+            "requiredZeroWire": 2
+        }
+    },
+    "361": {
+        "description": "Shelf",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "362": {
+        "description": "Shelf (variant)",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "363": {
+        "description": "Side Table",
+        "required": {
+            "requiredAdhesive": 1,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "364": {
+        "description": "Side Table (variant)",
+        "required": {
+            "requiredAluminum": 1,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "365": {
+        "description": "Signs",
+        "required": {
+            "requiredAluminum": 1,
+            "requiredOrnamentalMaterial": 1
+        }
+    },
+    "366": {
+        "description": "Simple Fabricator",
+        "required": {
+            "requiredAluminum": 8,
+            "requiredSealant": 2,
+            "requiredTungsten": 4,
+            "requiredZeroWire": 3
+        }
+    },
+    "367": {
+        "description": "Sink",
+        "required": {
+            "requiredIron": 1,
+            "requiredStructuralMaterial": 1
+        }
+    },
+    "368": {
+        "description": "Sleeping Bags",
+        "required": {
+            "requiredFiber": 2,
+            "requiredSealant": 1
+        }
+    },
+    "369": {
+        "description": "Small Hex Hab",
+        "required": {
+            "requiredAluminum": 8,
+            "requiredLead": 6,
+            "requiredSealant": 4
+        }
+    },
+    "370": {
+        "description": "Solar Array",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredBeryllium": 2,
+            "requiredCopper": 3
+        }
+    },
+    "371": {
+        "description": "Solar Dome",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredTauGradeRheostat": 2
+        }
+    },
+    "372": {
+        "description": "Space Frog Posters",
+        "required": {
+            "requiredOrnamentalMaterial": 1,
+            "requiredStructuralMaterial": 1
+        }
+    },
+    "373": {
+        "description": "Spacesuit Workbench",
+        "required": {
+            "requiredAluminum": 4,
+            "requiredCosmetic": 4,
+            "requiredFiber": 3
+        }
+    },
+    "374": {
+        "description": "Standing Mirror",
+        "required": {
+            "requiredSilver": 1,
+            "requiredStructuralMaterial": 1
+        }
+    },
+    "375": {
+        "description": "Statues",
+        "required": {
+            "requiredStructuralMaterial": 1,
+            "requiredTitanium": 2
+        }
+    },
+    "376": {
+        "description": "Stool 1",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredFiber": 1
+        }
+    },
+    "377": {
+        "description": "Stool 2",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredStructuralMaterial": 1
+        }
+    },
+    "378": {
+        "description": "Stool 3",
+        "required": {
+            "requiredAdhesive": 1,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "379": {
+        "description": "Stool 4",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredSealant": 1
+        }
+    },
+    "380": {
+        "description": "Stool 5",
+        "required": {
+            "requiredLuxuryTextile": 1,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "381": {
+        "description": "Storage - Gas",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredCopper": 6,
+            "requiredTungsten": 5
+        }
+    },
+    "382": {
+        "description": "Storage - Gas - Large",
+        "required": {
+            "requiredAdaptiveFrame": 10,
+            "requiredCopper": 20,
+            "requiredTungsten": 16
+        }
+    },
+    "383": {
+        "description": "Storage - Gas - Medium",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredCopper": 10,
+            "requiredTungsten": 8
+        }
+    },
+    "384": {
+        "description": "Storage - Liquid",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredAluminum": 6,
+            "requiredNickel": 5
+        }
+    },
+    "385": {
+        "description": "Storage - Liquid - Large",
+        "required": {
+            "requiredAdaptiveFrame": 10,
+            "requiredAluminum": 20,
+            "requiredNickel": 16
+        }
+    },
+    "386": {
+        "description": "Storage - Liquid - Medium",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAluminum": 10,
+            "requiredNickel": 8
+        }
+    },
+    "387": {
+        "description": "Storage - Solid",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredAluminum": 5,
+            "requiredIron": 6
+        }
+    },
+    "388": {
+        "description": "Storage - Solid - Large",
+        "required": {
+            "requiredAdaptiveFrame": 10,
+            "requiredAluminum": 16,
+            "requiredIron": 20
+        }
+    },
+    "389": {
+        "description": "Storage - Solid - Medium",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAluminum": 8,
+            "requiredIron": 10
+        }
+    },
+    "390": {
+        "description": "Storage Bins",
+        "required": {
+            "requiredIron": 1,
+            "requiredStructuralMaterial": 1
+        }
+    },
+    "391": {
+        "description": "Surgical Bed",
+        "required": {
+            "requiredFiber": 2,
+            "requiredIron": 1,
+            "requiredNickel": 2
+        }
+    },
+    "392": {
+        "description": "Surgical Bed (variant)",
+        "required": {
+            "requiredFiber": 2,
+            "requiredIron": 1,
+            "requiredNickel": 2
+        }
+    },
+    "393": {
+        "description": "Table 1",
+        "required": {
+            "requiredIron": 1,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "394": {
+        "description": "Table 2",
+        "required": {
+            "requiredAdhesive": 2,
+            "requiredStructuralMaterial": 3
+        }
+    },
+    "395": {
+        "description": "Table 3",
+        "required": {
+            "requiredIron": 3,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "396": {
+        "description": "Tables",
+        "required": {
+            "requiredNickel": 2,
+            "requiredPolymer": 1,
+            "requiredStructuralMaterial": 3
+        }
+    },
+    "397": {
+        "description": "Tick Turret Mk I",
+        "required": {
+            "requiredAluminum": 3,
+            "requiredChlorine": 1,
+            "requiredFluorine": 2,
+            "requiredZeroWire": 2
+        }
+    },
+    "398": {
+        "description": "Toilet",
+        "required": {
+            "requiredAluminum": 1,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "399": {
+        "description": "Toilet Paper",
+        "required": {
+            "requiredAluminum": 1,
+            "requiredFiber": 1
+        }
+    },
+    "400": {
+        "description": "Towel Rack",
+        "required": {
+            "requiredAluminum": 1,
+            "requiredFiber": 1
+        }
+    },
+    "401": {
+        "description": "Transfer Container",
+        "required": {
+            "requiredIron": 8,
+            "requiredLubricant": 4,
+            "requiredTungsten": 5
+        }
+    },
+    "402": {
+        "description": "Trash Cans",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredIron": 2
+        }
+    },
+    "403": {
+        "description": "Wall Cabinets",
+        "required": {
+            "requiredIron": 2,
+            "requiredNickel": 1
+        }
+    },
+    "404": {
+        "description": "Wall Monitor",
+        "required": {
+            "requiredAluminum": 1,
+            "requiredCopper": 1
+        }
+    },
+    "405": {
+        "description": "Wall Shelf",
+        "required": {
+            "requiredAluminum": 1,
+            "requiredStructuralMaterial": 1
+        }
+    },
+    "406": {
+        "description": "Warehouse - Large",
+        "required": {
+            "requiredAdaptiveFrame": 10,
+            "requiredAluminum": 20,
+            "requiredTitanium": 16
+        }
+    },
+    "407": {
+        "description": "Warehouse - Medium",
+        "required": {
+            "requiredAdaptiveFrame": 5,
+            "requiredAluminum": 10,
+            "requiredTitanium": 8
+        }
+    },
+    "408": {
+        "description": "Warehouse - Small",
+        "required": {
+            "requiredAdaptiveFrame": 3,
+            "requiredAluminum": 6,
+            "requiredTitanium": 5
+        }
+    },
+    "409": {
+        "description": "Watchtower",
+        "required": {
+            "requiredAdaptiveFrame": 12,
+            "requiredAluminum": 10,
+            "requiredArgon": 6,
+            "requiredIron": 16
+        }
+    },
+    "410": {
+        "description": "Water Cooler",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredWater": 2
+        }
+    },
+    "411": {
+        "description": "Weapon Case",
+        "required": {
+            "requiredPolymer": 1,
+            "requiredTitanium": 2
+        }
+    },
+    "412": {
+        "description": "Weapon Display Case",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "413": {
+        "description": "Weapon Rack",
+        "required": {
+            "requiredCopper": 1,
+            "requiredIron": 2
+        }
+    },
+    "414": {
+        "description": "Weapon Rack (variant)",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredStructuralMaterial": 2
+        }
+    },
+    "415": {
+        "description": "Weapon Rack (wall)",
+        "required": {
+            "requiredIron": 2,
+            "requiredStructuralMaterial": 1
+        }
+    },
+    "416": {
+        "description": "Weapon Workbench",
+        "required": {
+            "requiredAdhesive": 3,
+            "requiredIron": 4,
+            "requiredNickel": 2,
+            "requiredSealant": 3
+        }
+    },
+    "417": {
+        "description": "Weight Bench",
+        "required": {
+            "requiredAluminum": 2,
+            "requiredIron": 6,
+            "requiredNickel": 4
+        }
+    },
+    "418": {
+        "description": "White Board - Floor",
+        "required": {
+            "requiredAluminum": 1,
+            "requiredStructuralMaterial": 1
+        }
+    },
+    "419": {
+        "description": "Wind Turbine",
+        "required": {
+            "requiredAluminum": 5,
+            "requiredCobalt": 2,
+            "requiredNickel": 3
+        }
+    },
+    "420": {
+        "description": "Wind Turbine - Advanced",
+        "required": {
+            "requiredAluminum": 5,
+            "requiredIsocenteredMagnet": 2
+        }
+    },
+    "421": {
+        "description": "Wooden Desk",
+        "required": {
+            "requiredAdhesive": 2,
+            "requiredStructuralMaterial": 2
+        }
+    }
+}

@@ -1,0 +1,2324 @@
+{
+    "1": {
+        "name": "Animal Hide Rug",
+        "power": "0",
+        "recipeID": 35,
+        "type": "Decors"
+    },
+    "2": {
+        "name": "Animal Husbandry Facility",
+        "power": "-3",
+        "recipeID": 36,
+        "type": "Builders"
+    },
+    "3": {
+        "name": "Animal Husbandry Facility - Commercial",
+        "power": "-3",
+        "recipeID": 37,
+        "type": "Builders"
+    },
+    "4": {
+        "name": "Animal Husbandry Facility - Industrial",
+        "power": "-3",
+        "recipeID": 38,
+        "type": "Builders"
+    },
+    "5": {
+        "name": "Backpack Stand",
+        "power": "0",
+        "recipeID": 39,
+        "type": "Displays"
+    },
+    "6": {
+        "name": "Ballistic Turret Mk I",
+        "power": "-3",
+        "recipeID": 40,
+        "type": "Defenses"
+    },
+    "7": {
+        "name": "Ballistic Turret Mk II",
+        "power": "-4",
+        "recipeID": 41,
+        "type": "Defenses"
+    },
+    "8": {
+        "name": "Ballistic Turret Mk III",
+        "power": "-5",
+        "recipeID": 42,
+        "type": "Defenses"
+    },
+    "9": {
+        "name": "Bar Table",
+        "power": "0",
+        "recipeID": 43,
+        "type": "Furniture"
+    },
+    "10": {
+        "name": "Bed (Starborn)",
+        "power": "0",
+        "recipeID": 44,
+        "type": "Furniture"
+    },
+    "11": {
+        "name": "Bed 1",
+        "power": "0",
+        "recipeID": 45,
+        "type": "Furniture"
+    },
+    "12": {
+        "name": "Bed 2",
+        "power": "0",
+        "recipeID": 46,
+        "type": "Furniture"
+    },
+    "13": {
+        "name": "Bed 3",
+        "power": "0",
+        "recipeID": 47,
+        "type": "Furniture"
+    },
+    "14": {
+        "name": "Bench 1",
+        "power": "0",
+        "recipeID": 48,
+        "type": "Furniture"
+    },
+    "15": {
+        "name": "Bench 2",
+        "power": "0",
+        "recipeID": 49,
+        "type": "Furniture"
+    },
+    "16": {
+        "name": "Bench 3",
+        "power": "0",
+        "recipeID": 50,
+        "type": "Furniture"
+    },
+    "17": {
+        "name": "Bench 4",
+        "power": "0",
+        "recipeID": 51,
+        "type": "Furniture"
+    },
+    "18": {
+        "name": "Bench 5",
+        "power": "0",
+        "recipeID": 52,
+        "type": "Furniture"
+    },
+    "19": {
+        "name": "Bench 6",
+        "power": "0",
+        "recipeID": 53,
+        "type": "Furniture"
+    },
+    "20": {
+        "name": "Bookcase",
+        "power": "0",
+        "recipeID": 54,
+        "type": "Furniture"
+    },
+    "21": {
+        "name": "Bounty Poster",
+        "power": "0",
+        "recipeID": 55,
+        "type": "Decors"
+    },
+    "22": {
+        "name": "Bunk Bed",
+        "power": "0",
+        "recipeID": 56,
+        "type": "Furniture"
+    },
+    "23": {
+        "name": "Bunk Bed (variant)",
+        "power": "0",
+        "recipeID": 57,
+        "type": "Furniture"
+    },
+    "24": {
+        "name": "Cabinets",
+        "power": "0",
+        "recipeID": 58,
+        "type": "Furniture"
+    },
+    "25": {
+        "name": "Cargo Link",
+        "power": "0",
+        "recipeID": 59,
+        "type": "Misc"
+    },
+    "26": {
+        "name": "Cargo Link - Inter-System",
+        "power": "0",
+        "recipeID": 60,
+        "type": "Misc"
+    },
+    "27": {
+        "name": "Carts",
+        "power": "0",
+        "recipeID": 61,
+        "type": "Decors"
+    },
+    "28": {
+        "name": "Chair 1",
+        "power": "0",
+        "recipeID": 62,
+        "type": "Furniture"
+    },
+    "29": {
+        "name": "Chair 10",
+        "power": "0",
+        "recipeID": 63,
+        "type": "Furniture"
+    },
+    "30": {
+        "name": "Chair 11",
+        "power": "0",
+        "recipeID": 64,
+        "type": "Furniture"
+    },
+    "31": {
+        "name": "Chair 12",
+        "power": "0",
+        "recipeID": 65,
+        "type": "Furniture"
+    },
+    "32": {
+        "name": "Chair 13",
+        "power": "0",
+        "recipeID": 66,
+        "type": "Furniture"
+    },
+    "33": {
+        "name": "Chair 14",
+        "power": "0",
+        "recipeID": 67,
+        "type": "Furniture"
+    },
+    "34": {
+        "name": "Chair 15",
+        "power": "0",
+        "recipeID": 68,
+        "type": "Furniture"
+    },
+    "35": {
+        "name": "Chair 16",
+        "power": "0",
+        "recipeID": 69,
+        "type": "Furniture"
+    },
+    "36": {
+        "name": "Chair 2",
+        "power": "0",
+        "recipeID": 70,
+        "type": "Furniture"
+    },
+    "37": {
+        "name": "Chair 3",
+        "power": "0",
+        "recipeID": 71,
+        "type": "Furniture"
+    },
+    "38": {
+        "name": "Chair 4",
+        "power": "0",
+        "recipeID": 72,
+        "type": "Furniture"
+    },
+    "39": {
+        "name": "Chair 5",
+        "power": "0",
+        "recipeID": 73,
+        "type": "Furniture"
+    },
+    "40": {
+        "name": "Chair 6",
+        "power": "0",
+        "recipeID": 74,
+        "type": "Furniture"
+    },
+    "41": {
+        "name": "Chair 7",
+        "power": "0",
+        "recipeID": 75,
+        "type": "Furniture"
+    },
+    "42": {
+        "name": "Chair 8",
+        "power": "0",
+        "recipeID": 76,
+        "type": "Furniture"
+    },
+    "43": {
+        "name": "Chair 9",
+        "power": "0",
+        "recipeID": 77,
+        "type": "Furniture"
+    },
+    "44": {
+        "name": "Cleaning",
+        "power": "0",
+        "recipeID": 78,
+        "type": "Decors"
+    },
+    "45": {
+        "name": "Coffee Maker",
+        "power": "0",
+        "recipeID": 79,
+        "type": "Decors"
+    },
+    "46": {
+        "name": "Coffee Table",
+        "power": "0",
+        "recipeID": 80,
+        "type": "Furniture"
+    },
+    "47": {
+        "name": "Coffee Table (variant)",
+        "power": "0",
+        "recipeID": 81,
+        "type": "Furniture"
+    },
+    "48": {
+        "name": "Compound Fabricator",
+        "power": "-8",
+        "recipeID": 82,
+        "type": "Builders"
+    },
+    "49": {
+        "name": "Conference Table",
+        "power": "0",
+        "recipeID": 83,
+        "type": "Furniture"
+    },
+    "50": {
+        "name": "Console Desks",
+        "power": "0",
+        "recipeID": 84,
+        "type": "Furniture"
+    },
+    "51": {
+        "name": "Constellation Mission Board",
+        "power": "0",
+        "recipeID": 85,
+        "type": "Misc"
+    },
+    "52": {
+        "name": "Containers (large)",
+        "power": "0",
+        "recipeID": 86,
+        "type": "Decors"
+    },
+    "53": {
+        "name": "Containers (safe)",
+        "power": "0",
+        "recipeID": 87,
+        "type": "Decors"
+    },
+    "54": {
+        "name": "Containers (small)",
+        "power": "0",
+        "recipeID": 88,
+        "type": "Decors"
+    },
+    "55": {
+        "name": "Cooking Station",
+        "power": "0",
+        "recipeID": 89,
+        "type": "Crafting"
+    },
+    "56": {
+        "name": "Couch 1",
+        "power": "0",
+        "recipeID": 90,
+        "type": "Furniture"
+    },
+    "57": {
+        "name": "Couch 2",
+        "power": "0",
+        "recipeID": 91,
+        "type": "Furniture"
+    },
+    "58": {
+        "name": "Couch 3",
+        "power": "0",
+        "recipeID": 92,
+        "type": "Furniture"
+    },
+    "59": {
+        "name": "Couch 4",
+        "power": "0",
+        "recipeID": 93,
+        "type": "Furniture"
+    },
+    "60": {
+        "name": "Couches",
+        "power": "0",
+        "recipeID": 94,
+        "type": "Furniture"
+    },
+    "61": {
+        "name": "Crew Station",
+        "power": "0",
+        "recipeID": 95,
+        "type": "Misc"
+    },
+    "62": {
+        "name": "Dart boards",
+        "power": "0",
+        "recipeID": 96,
+        "type": "Decors"
+    },
+    "63": {
+        "name": "Data Slate Display",
+        "power": "0",
+        "recipeID": 97,
+        "type": "Displays"
+    },
+    "64": {
+        "name": "Data Slate Display (variant)",
+        "power": "0",
+        "recipeID": 98,
+        "type": "Displays"
+    },
+    "65": {
+        "name": "Desk",
+        "power": "0",
+        "recipeID": 99,
+        "type": "Furniture"
+    },
+    "66": {
+        "name": "Desk (variant)",
+        "power": "0",
+        "recipeID": 100,
+        "type": "Furniture"
+    },
+    "67": {
+        "name": "Desk Monitor",
+        "power": "0",
+        "recipeID": 101,
+        "type": "Decors"
+    },
+    "68": {
+        "name": "Desks",
+        "power": "0",
+        "recipeID": 102,
+        "type": "Furniture"
+    },
+    "69": {
+        "name": "Diagnostic Machine",
+        "power": "0",
+        "recipeID": 103,
+        "type": "Decors"
+    },
+    "70": {
+        "name": "Display Case",
+        "power": "0",
+        "recipeID": 104,
+        "type": "Displays"
+    },
+    "71": {
+        "name": "Display Shelf",
+        "power": "0",
+        "recipeID": 105,
+        "type": "Displays"
+    },
+    "72": {
+        "name": "Display Shelf (variant)",
+        "power": "0",
+        "recipeID": 106,
+        "type": "Displays"
+    },
+    "73": {
+        "name": "Drink Machine",
+        "power": "0",
+        "recipeID": 107,
+        "type": "Decors"
+    },
+    "74": {
+        "name": "Earth Globe",
+        "power": "0",
+        "recipeID": 108,
+        "type": "Decors"
+    },
+    "75": {
+        "name": "End Table",
+        "power": "0",
+        "recipeID": 109,
+        "type": "Furniture"
+    },
+    "76": {
+        "name": "End Table (variant)",
+        "power": "0",
+        "recipeID": 110,
+        "type": "Furniture"
+    },
+    "77": {
+        "name": "Engineering Robot",
+        "power": "0",
+        "recipeID": 111,
+        "type": "Robots"
+    },
+    "78": {
+        "name": "Extractor - Aldumite",
+        "power": "-5",
+        "recipeID": 112,
+        "type": "Extractors"
+    },
+    "79": {
+        "name": "Extractor - Aldumite - Commercial",
+        "power": "-10",
+        "recipeID": 113,
+        "type": "Extractors"
+    },
+    "80": {
+        "name": "Extractor - Aldumite - Industrial",
+        "power": "-20",
+        "recipeID": 114,
+        "type": "Extractors"
+    },
+    "81": {
+        "name": "Extractor - Alkanes",
+        "power": "-5",
+        "recipeID": 115,
+        "type": "Extractors"
+    },
+    "82": {
+        "name": "Extractor - Alkanes - Commercial",
+        "power": "-10",
+        "recipeID": 116,
+        "type": "Extractors"
+    },
+    "83": {
+        "name": "Extractor - Alkanes - Industrial",
+        "power": "-20",
+        "recipeID": 117,
+        "type": "Extractors"
+    },
+    "84": {
+        "name": "Extractor - Alkanes Vapor",
+        "power": "-5",
+        "recipeID": 118,
+        "type": "Extractors"
+    },
+    "85": {
+        "name": "Extractor - Alkanes Vapor - Commercial",
+        "power": "-5",
+        "recipeID": 119,
+        "type": "Extractors"
+    },
+    "86": {
+        "name": "Extractor - Alkanes Vapor - Industrial",
+        "power": "-5",
+        "recipeID": 120,
+        "type": "Extractors"
+    },
+    "87": {
+        "name": "Extractor - Aluminum",
+        "power": "-5",
+        "recipeID": 121,
+        "type": "Extractors"
+    },
+    "88": {
+        "name": "Extractor - Aluminum - Commercial",
+        "power": "-10",
+        "recipeID": 122,
+        "type": "Extractors"
+    },
+    "89": {
+        "name": "Extractor - Aluminum - Industrial",
+        "power": "-20",
+        "recipeID": 123,
+        "type": "Extractors"
+    },
+    "90": {
+        "name": "Extractor - Antimony",
+        "power": "-5",
+        "recipeID": 124,
+        "type": "Extractors"
+    },
+    "91": {
+        "name": "Extractor - Antimony - Commercial",
+        "power": "-10",
+        "recipeID": 125,
+        "type": "Extractors"
+    },
+    "92": {
+        "name": "Extractor - Antimony - Industrial",
+        "power": "-20",
+        "recipeID": 126,
+        "type": "Extractors"
+    },
+    "93": {
+        "name": "Extractor - Argon",
+        "power": "-5",
+        "recipeID": 127,
+        "type": "Extractors"
+    },
+    "94": {
+        "name": "Extractor - Argon - Commercial",
+        "power": "-10",
+        "recipeID": 128,
+        "type": "Extractors"
+    },
+    "95": {
+        "name": "Extractor - Argon - Industrial",
+        "power": "-20",
+        "recipeID": 129,
+        "type": "Extractors"
+    },
+    "96": {
+        "name": "Extractor - Benzene",
+        "power": "-5",
+        "recipeID": 130,
+        "type": "Extractors"
+    },
+    "97": {
+        "name": "Extractor - Benzene - Commercial",
+        "power": "-10",
+        "recipeID": 131,
+        "type": "Extractors"
+    },
+    "98": {
+        "name": "Extractor - Benzene - Industrial",
+        "power": "-20",
+        "recipeID": 132,
+        "type": "Extractors"
+    },
+    "99": {
+        "name": "Extractor - Benzene Vapor",
+        "power": "-5",
+        "recipeID": 133,
+        "type": "Extractors"
+    },
+    "100": {
+        "name": "Extractor - Benzene Vapor - Commercial",
+        "power": "-5",
+        "recipeID": 134,
+        "type": "Extractors"
+    },
+    "101": {
+        "name": "Extractor - Benzene Vapor - Industrial",
+        "power": "-5",
+        "recipeID": 135,
+        "type": "Extractors"
+    },
+    "102": {
+        "name": "Extractor - Beryllium",
+        "power": "-5",
+        "recipeID": 136,
+        "type": "Extractors"
+    },
+    "103": {
+        "name": "Extractor - Beryllium - Commercial",
+        "power": "-10",
+        "recipeID": 137,
+        "type": "Extractors"
+    },
+    "104": {
+        "name": "Extractor - Beryllium - Industrial",
+        "power": "-20",
+        "recipeID": 138,
+        "type": "Extractors"
+    },
+    "105": {
+        "name": "Extractor - Caesium",
+        "power": "-5",
+        "recipeID": 139,
+        "type": "Extractors"
+    },
+    "106": {
+        "name": "Extractor - Caesium - Commercial",
+        "power": "-10",
+        "recipeID": 140,
+        "type": "Extractors"
+    },
+    "107": {
+        "name": "Extractor - Caesium - Industrial",
+        "power": "-20",
+        "recipeID": 141,
+        "type": "Extractors"
+    },
+    "108": {
+        "name": "Extractor - Carboxylic Acids",
+        "power": "-5",
+        "recipeID": 142,
+        "type": "Extractors"
+    },
+    "109": {
+        "name": "Extractor - Carboxylic Acids - Commercial",
+        "power": "-10",
+        "recipeID": 143,
+        "type": "Extractors"
+    },
+    "110": {
+        "name": "Extractor - Carboxylic Acids - Industrial",
+        "power": "-20",
+        "recipeID": 144,
+        "type": "Extractors"
+    },
+    "111": {
+        "name": "Extractor - Chlorine",
+        "power": "-5",
+        "recipeID": 145,
+        "type": "Extractors"
+    },
+    "112": {
+        "name": "Extractor - Chlorine - Commercial",
+        "power": "-10",
+        "recipeID": 146,
+        "type": "Extractors"
+    },
+    "113": {
+        "name": "Extractor - Chlorine - Industrial",
+        "power": "-20",
+        "recipeID": 147,
+        "type": "Extractors"
+    },
+    "114": {
+        "name": "Extractor - Chlorine Vapor",
+        "power": "-5",
+        "recipeID": 148,
+        "type": "Extractors"
+    },
+    "115": {
+        "name": "Extractor - Chlorine Vapor - Commercial",
+        "power": "-5",
+        "recipeID": 149,
+        "type": "Extractors"
+    },
+    "116": {
+        "name": "Extractor - Chlorine Vapor - Industrial",
+        "power": "-5",
+        "recipeID": 150,
+        "type": "Extractors"
+    },
+    "117": {
+        "name": "Extractor - Chlorosilanes",
+        "power": "-5",
+        "recipeID": 151,
+        "type": "Extractors"
+    },
+    "118": {
+        "name": "Extractor - Chlorosilanes - Commercial",
+        "power": "-10",
+        "recipeID": 152,
+        "type": "Extractors"
+    },
+    "119": {
+        "name": "Extractor - Chlorosilanes - Industrial",
+        "power": "-20",
+        "recipeID": 153,
+        "type": "Extractors"
+    },
+    "120": {
+        "name": "Extractor - Cobalt",
+        "power": "-5",
+        "recipeID": 154,
+        "type": "Extractors"
+    },
+    "121": {
+        "name": "Extractor - Cobalt - Commercial",
+        "power": "-10",
+        "recipeID": 155,
+        "type": "Extractors"
+    },
+    "122": {
+        "name": "Extractor - Cobalt - Industrial",
+        "power": "-20",
+        "recipeID": 156,
+        "type": "Extractors"
+    },
+    "123": {
+        "name": "Extractor - Copper",
+        "power": "-5",
+        "recipeID": 157,
+        "type": "Extractors"
+    },
+    "124": {
+        "name": "Extractor - Copper - Commercial",
+        "power": "-10",
+        "recipeID": 158,
+        "type": "Extractors"
+    },
+    "125": {
+        "name": "Extractor - Copper - Industrial",
+        "power": "-20",
+        "recipeID": 159,
+        "type": "Extractors"
+    },
+    "126": {
+        "name": "Extractor - Dysprosium",
+        "power": "-5",
+        "recipeID": 160,
+        "type": "Extractors"
+    },
+    "127": {
+        "name": "Extractor - Dysprosium - Commercial",
+        "power": "-10",
+        "recipeID": 161,
+        "type": "Extractors"
+    },
+    "128": {
+        "name": "Extractor - Dysprosium - Industrial",
+        "power": "-20",
+        "recipeID": 162,
+        "type": "Extractors"
+    },
+    "129": {
+        "name": "Extractor - Europium",
+        "power": "-5",
+        "recipeID": 163,
+        "type": "Extractors"
+    },
+    "130": {
+        "name": "Extractor - Europium - Commercial",
+        "power": "-10",
+        "recipeID": 164,
+        "type": "Extractors"
+    },
+    "131": {
+        "name": "Extractor - Europium - Industrial",
+        "power": "-20",
+        "recipeID": 165,
+        "type": "Extractors"
+    },
+    "132": {
+        "name": "Extractor - Fluorine",
+        "power": "-5",
+        "recipeID": 166,
+        "type": "Extractors"
+    },
+    "133": {
+        "name": "Extractor - Fluorine - Commercial",
+        "power": "-10",
+        "recipeID": 167,
+        "type": "Extractors"
+    },
+    "134": {
+        "name": "Extractor - Fluorine - Industrial",
+        "power": "-20",
+        "recipeID": 168,
+        "type": "Extractors"
+    },
+    "135": {
+        "name": "Extractor - Fluorine Vapor",
+        "power": "-5",
+        "recipeID": 169,
+        "type": "Extractors"
+    },
+    "136": {
+        "name": "Extractor - Fluorine Vapor - Commercial",
+        "power": "-5",
+        "recipeID": 170,
+        "type": "Extractors"
+    },
+    "137": {
+        "name": "Extractor - Fluorine Vapor - Industrial",
+        "power": "-5",
+        "recipeID": 171,
+        "type": "Extractors"
+    },
+    "138": {
+        "name": "Extractor - Gold",
+        "power": "-5",
+        "recipeID": 172,
+        "type": "Extractors"
+    },
+    "139": {
+        "name": "Extractor - Gold - Commercial",
+        "power": "-10",
+        "recipeID": 173,
+        "type": "Extractors"
+    },
+    "140": {
+        "name": "Extractor - Gold - Industrial",
+        "power": "-20",
+        "recipeID": 174,
+        "type": "Extractors"
+    },
+    "141": {
+        "name": "Extractor - Helium-3",
+        "power": "-5",
+        "recipeID": 175,
+        "type": "Extractors"
+    },
+    "142": {
+        "name": "Extractor - Helium-3 - Commercial",
+        "power": "-10",
+        "recipeID": 176,
+        "type": "Extractors"
+    },
+    "143": {
+        "name": "Extractor - Helium-3 - Industrial",
+        "power": "-20",
+        "recipeID": 177,
+        "type": "Extractors"
+    },
+    "144": {
+        "name": "Extractor - Helium-3 Vapor",
+        "power": "-5",
+        "recipeID": 178,
+        "type": "Extractors"
+    },
+    "145": {
+        "name": "Extractor - Helium-3 Vapor - Commercial",
+        "power": "-5",
+        "recipeID": 179,
+        "type": "Extractors"
+    },
+    "146": {
+        "name": "Extractor - Helium-3 Vapor - Industrial",
+        "power": "-5",
+        "recipeID": 180,
+        "type": "Extractors"
+    },
+    "147": {
+        "name": "Extractor - Indicite",
+        "power": "-5",
+        "recipeID": 181,
+        "type": "Extractors"
+    },
+    "148": {
+        "name": "Extractor - Indicite - Commercial",
+        "power": "-10",
+        "recipeID": 182,
+        "type": "Extractors"
+    },
+    "149": {
+        "name": "Extractor - Indicite - Industrial",
+        "power": "-20",
+        "recipeID": 183,
+        "type": "Extractors"
+    },
+    "150": {
+        "name": "Extractor - Ionic Liquids",
+        "power": "-5",
+        "recipeID": 184,
+        "type": "Extractors"
+    },
+    "151": {
+        "name": "Extractor - Ionic Liquids - Commercial",
+        "power": "-10",
+        "recipeID": 185,
+        "type": "Extractors"
+    },
+    "152": {
+        "name": "Extractor - Ionic Liquids - Industrial",
+        "power": "-20",
+        "recipeID": 186,
+        "type": "Extractors"
+    },
+    "153": {
+        "name": "Extractor - Iridium",
+        "power": "-5",
+        "recipeID": 187,
+        "type": "Extractors"
+    },
+    "154": {
+        "name": "Extractor - Iridium - Commercial",
+        "power": "-10",
+        "recipeID": 188,
+        "type": "Extractors"
+    },
+    "155": {
+        "name": "Extractor - Iridium - Industrial",
+        "power": "-20",
+        "recipeID": 189,
+        "type": "Extractors"
+    },
+    "156": {
+        "name": "Extractor - Iron",
+        "power": "-5",
+        "recipeID": 190,
+        "type": "Extractors"
+    },
+    "157": {
+        "name": "Extractor - Iron - Commercial",
+        "power": "-10",
+        "recipeID": 191,
+        "type": "Extractors"
+    },
+    "158": {
+        "name": "Extractor - Iron - Industrial",
+        "power": "-20",
+        "recipeID": 192,
+        "type": "Extractors"
+    },
+    "159": {
+        "name": "Extractor - Lead",
+        "power": "-5",
+        "recipeID": 193,
+        "type": "Extractors"
+    },
+    "160": {
+        "name": "Extractor - Lead - Commercial",
+        "power": "-10",
+        "recipeID": 194,
+        "type": "Extractors"
+    },
+    "161": {
+        "name": "Extractor - Lead - Industrial",
+        "power": "-20",
+        "recipeID": 195,
+        "type": "Extractors"
+    },
+    "162": {
+        "name": "Extractor - Lithium",
+        "power": "-5",
+        "recipeID": 196,
+        "type": "Extractors"
+    },
+    "163": {
+        "name": "Extractor - Lithium - Commercial",
+        "power": "-10",
+        "recipeID": 197,
+        "type": "Extractors"
+    },
+    "164": {
+        "name": "Extractor - Lithium - Industrial",
+        "power": "-20",
+        "recipeID": 198,
+        "type": "Extractors"
+    },
+    "165": {
+        "name": "Extractor - Mercury",
+        "power": "-5",
+        "recipeID": 199,
+        "type": "Extractors"
+    },
+    "166": {
+        "name": "Extractor - Mercury - Commercial",
+        "power": "-10",
+        "recipeID": 200,
+        "type": "Extractors"
+    },
+    "167": {
+        "name": "Extractor - Mercury - Industrial",
+        "power": "-20",
+        "recipeID": 201,
+        "type": "Extractors"
+    },
+    "168": {
+        "name": "Extractor - Neodymium",
+        "power": "-5",
+        "recipeID": 202,
+        "type": "Extractors"
+    },
+    "169": {
+        "name": "Extractor - Neodymium - Commercial",
+        "power": "-10",
+        "recipeID": 203,
+        "type": "Extractors"
+    },
+    "170": {
+        "name": "Extractor - Neodymium - Industrial",
+        "power": "-20",
+        "recipeID": 204,
+        "type": "Extractors"
+    },
+    "171": {
+        "name": "Extractor - Neon",
+        "power": "-5",
+        "recipeID": 205,
+        "type": "Extractors"
+    },
+    "172": {
+        "name": "Extractor - Neon - Commercial",
+        "power": "-10",
+        "recipeID": 206,
+        "type": "Extractors"
+    },
+    "173": {
+        "name": "Extractor - Neon - Industrial",
+        "power": "-20",
+        "recipeID": 207,
+        "type": "Extractors"
+    },
+    "174": {
+        "name": "Extractor - Nickel",
+        "power": "-5",
+        "recipeID": 208,
+        "type": "Extractors"
+    },
+    "175": {
+        "name": "Extractor - Nickel - Commercial",
+        "power": "-10",
+        "recipeID": 209,
+        "type": "Extractors"
+    },
+    "176": {
+        "name": "Extractor - Nickel - Industrial",
+        "power": "-20",
+        "recipeID": 210,
+        "type": "Extractors"
+    },
+    "177": {
+        "name": "Extractor - Palladium",
+        "power": "-5",
+        "recipeID": 211,
+        "type": "Extractors"
+    },
+    "178": {
+        "name": "Extractor - Palladium - Commercial",
+        "power": "-10",
+        "recipeID": 212,
+        "type": "Extractors"
+    },
+    "179": {
+        "name": "Extractor - Palladium - Industrial",
+        "power": "-20",
+        "recipeID": 213,
+        "type": "Extractors"
+    },
+    "180": {
+        "name": "Extractor - Platinum",
+        "power": "-5",
+        "recipeID": 214,
+        "type": "Extractors"
+    },
+    "181": {
+        "name": "Extractor - Platinum - Commercial",
+        "power": "-10",
+        "recipeID": 215,
+        "type": "Extractors"
+    },
+    "182": {
+        "name": "Extractor - Platinum - Industrial",
+        "power": "-20",
+        "recipeID": 216,
+        "type": "Extractors"
+    },
+    "183": {
+        "name": "Extractor - Plutonium",
+        "power": "-5",
+        "recipeID": 217,
+        "type": "Extractors"
+    },
+    "184": {
+        "name": "Extractor - Plutonium - Commercial",
+        "power": "-10",
+        "recipeID": 218,
+        "type": "Extractors"
+    },
+    "185": {
+        "name": "Extractor - Plutonium - Industrial",
+        "power": "-20",
+        "recipeID": 219,
+        "type": "Extractors"
+    },
+    "186": {
+        "name": "Extractor - Rothicite",
+        "power": "-5",
+        "recipeID": 220,
+        "type": "Extractors"
+    },
+    "187": {
+        "name": "Extractor - Rothicite - Commercial",
+        "power": "-20",
+        "recipeID": 221,
+        "type": "Extractors"
+    },
+    "188": {
+        "name": "Extractor - Rothicite - Industrial",
+        "power": "-10",
+        "recipeID": 222,
+        "type": "Extractors"
+    },
+    "189": {
+        "name": "Extractor - Silver",
+        "power": "-5",
+        "recipeID": 223,
+        "type": "Extractors"
+    },
+    "190": {
+        "name": "Extractor - Silver - Commercial",
+        "power": "-10",
+        "recipeID": 224,
+        "type": "Extractors"
+    },
+    "191": {
+        "name": "Extractor - Silver - Industrial",
+        "power": "-20",
+        "recipeID": 225,
+        "type": "Extractors"
+    },
+    "192": {
+        "name": "Extractor - Tantalum",
+        "power": "-5",
+        "recipeID": 226,
+        "type": "Extractors"
+    },
+    "193": {
+        "name": "Extractor - Tantalum - Commercial",
+        "power": "-10",
+        "recipeID": 227,
+        "type": "Extractors"
+    },
+    "194": {
+        "name": "Extractor - Tantalum - Industrial",
+        "power": "-20",
+        "recipeID": 228,
+        "type": "Extractors"
+    },
+    "195": {
+        "name": "Extractor - Tasine",
+        "power": "-5",
+        "recipeID": 229,
+        "type": "Extractors"
+    },
+    "196": {
+        "name": "Extractor - Tasine - Commercial",
+        "power": "-10",
+        "recipeID": 230,
+        "type": "Extractors"
+    },
+    "197": {
+        "name": "Extractor - Tasine - Industrial",
+        "power": "-20",
+        "recipeID": 231,
+        "type": "Extractors"
+    },
+    "198": {
+        "name": "Extractor - Tetrafluorides",
+        "power": "-5",
+        "recipeID": 232,
+        "type": "Extractors"
+    },
+    "199": {
+        "name": "Extractor - Tetrafluorides - Commercial",
+        "power": "-10",
+        "recipeID": 233,
+        "type": "Extractors"
+    },
+    "200": {
+        "name": "Extractor - Tetrafluorides - Industrial",
+        "power": "-20",
+        "recipeID": 234,
+        "type": "Extractors"
+    },
+    "201": {
+        "name": "Extractor - Titanium",
+        "power": "-5",
+        "recipeID": 235,
+        "type": "Extractors"
+    },
+    "202": {
+        "name": "Extractor - Titanium - Commercial",
+        "power": "-10",
+        "recipeID": 236,
+        "type": "Extractors"
+    },
+    "203": {
+        "name": "Extractor - Titanium - Industrial",
+        "power": "-20",
+        "recipeID": 237,
+        "type": "Extractors"
+    },
+    "204": {
+        "name": "Extractor - Tungsten",
+        "power": "-5",
+        "recipeID": 238,
+        "type": "Extractors"
+    },
+    "205": {
+        "name": "Extractor - Tungsten - Commercial",
+        "power": "-10",
+        "recipeID": 239,
+        "type": "Extractors"
+    },
+    "206": {
+        "name": "Extractor - Tungsten - Industrial",
+        "power": "-20",
+        "recipeID": 240,
+        "type": "Extractors"
+    },
+    "207": {
+        "name": "Extractor - Uranium",
+        "power": "-5",
+        "recipeID": 241,
+        "type": "Extractors"
+    },
+    "208": {
+        "name": "Extractor - Uranium - Commercial",
+        "power": "-10",
+        "recipeID": 242,
+        "type": "Extractors"
+    },
+    "209": {
+        "name": "Extractor - Uranium - Industrial",
+        "power": "-20",
+        "recipeID": 243,
+        "type": "Extractors"
+    },
+    "210": {
+        "name": "Extractor - Vanadium",
+        "power": "-5",
+        "recipeID": 244,
+        "type": "Extractors"
+    },
+    "211": {
+        "name": "Extractor - Vanadium - Commercial",
+        "power": "-10",
+        "recipeID": 245,
+        "type": "Extractors"
+    },
+    "212": {
+        "name": "Extractor - Vanadium - Industrial",
+        "power": "-20",
+        "recipeID": 246,
+        "type": "Extractors"
+    },
+    "213": {
+        "name": "Extractor - Veryl",
+        "power": "-5",
+        "recipeID": 247,
+        "type": "Extractors"
+    },
+    "214": {
+        "name": "Extractor - Veryl - Commercial",
+        "power": "-10",
+        "recipeID": 248,
+        "type": "Extractors"
+    },
+    "215": {
+        "name": "Extractor - Veryl - Industrial",
+        "power": "-20",
+        "recipeID": 249,
+        "type": "Extractors"
+    },
+    "216": {
+        "name": "Extractor - Vytinium",
+        "power": "-5",
+        "recipeID": 250,
+        "type": "Extractors"
+    },
+    "217": {
+        "name": "Extractor - Vytinium - Commercial",
+        "power": "-10",
+        "recipeID": 251,
+        "type": "Extractors"
+    },
+    "218": {
+        "name": "Extractor - Vytinium - Industrial",
+        "power": "-20",
+        "recipeID": 252,
+        "type": "Extractors"
+    },
+    "219": {
+        "name": "Extractor - Water",
+        "power": "-5",
+        "recipeID": 253,
+        "type": "Extractors"
+    },
+    "220": {
+        "name": "Extractor - Water - Commercial",
+        "power": "-10",
+        "recipeID": 254,
+        "type": "Extractors"
+    },
+    "221": {
+        "name": "Extractor - Water - Industrial",
+        "power": "-20",
+        "recipeID": 255,
+        "type": "Extractors"
+    },
+    "222": {
+        "name": "Extractor - Water Vapor",
+        "power": "-5",
+        "recipeID": 256,
+        "type": "Extractors"
+    },
+    "223": {
+        "name": "Extractor - Water Vapor - Commercial",
+        "power": "-5",
+        "recipeID": 257,
+        "type": "Extractors"
+    },
+    "224": {
+        "name": "Extractor - Water Vapor - Industrial",
+        "power": "-5",
+        "recipeID": 258,
+        "type": "Extractors"
+    },
+    "225": {
+        "name": "Extractor - Xenon",
+        "power": "-5",
+        "recipeID": 259,
+        "type": "Extractors"
+    },
+    "226": {
+        "name": "Extractor - Xenon - Commercial",
+        "power": "-10",
+        "recipeID": 260,
+        "type": "Extractors"
+    },
+    "227": {
+        "name": "Extractor - Xenon - Industrial",
+        "power": "-20",
+        "recipeID": 261,
+        "type": "Extractors"
+    },
+    "228": {
+        "name": "Extractor - Ytterbium",
+        "power": "-5",
+        "recipeID": 262,
+        "type": "Extractors"
+    },
+    "229": {
+        "name": "Extractor - Ytterbium - Commercial",
+        "power": "-10",
+        "recipeID": 263,
+        "type": "Extractors"
+    },
+    "230": {
+        "name": "Extractor - Ytterbium - Industrial",
+        "power": "-20",
+        "recipeID": 264,
+        "type": "Extractors"
+    },
+    "231": {
+        "name": "Fancy Bookcase",
+        "power": "0",
+        "recipeID": 265,
+        "type": "Furniture"
+    },
+    "232": {
+        "name": "Fancy Sofa",
+        "power": "0",
+        "recipeID": 266,
+        "type": "Furniture"
+    },
+    "233": {
+        "name": "Flood Lamps",
+        "power": "0",
+        "recipeID": 267,
+        "type": "Lights"
+    },
+    "234": {
+        "name": "Floor Mats",
+        "power": "0",
+        "recipeID": 268,
+        "type": "Decors"
+    },
+    "235": {
+        "name": "Four Wall Hab",
+        "power": "0",
+        "recipeID": 269,
+        "type": "Structures"
+    },
+    "236": {
+        "name": "Four Wall Hab - Double",
+        "power": "0",
+        "recipeID": 270,
+        "type": "Structures"
+    },
+    "237": {
+        "name": "Fueled Generator",
+        "power": "+20",
+        "recipeID": 271,
+        "type": "Power"
+    },
+    "238": {
+        "name": "Garden Mini Bot",
+        "power": "0",
+        "recipeID": 272,
+        "type": "Robots"
+    },
+    "239": {
+        "name": "Greenhouse",
+        "power": "-3",
+        "recipeID": 273,
+        "type": "Builders"
+    },
+    "240": {
+        "name": "Greenhouse - Commercial",
+        "power": "-3",
+        "recipeID": 274,
+        "type": "Builders"
+    },
+    "241": {
+        "name": "Greenhouse - Industrial",
+        "power": "-3",
+        "recipeID": 275,
+        "type": "Builders"
+    },
+    "242": {
+        "name": "Hab Round",
+        "power": "0",
+        "recipeID": 276,
+        "type": "Structures"
+    },
+    "243": {
+        "name": "Hallway - Hydroponic",
+        "power": "0",
+        "recipeID": 277,
+        "type": "Structures"
+    },
+    "244": {
+        "name": "Hallway - Industrial",
+        "power": "0",
+        "recipeID": 278,
+        "type": "Structures"
+    },
+    "245": {
+        "name": "Hallway - Military",
+        "power": "0",
+        "recipeID": 279,
+        "type": "Structures"
+    },
+    "246": {
+        "name": "Hallway - Science",
+        "power": "0",
+        "recipeID": 280,
+        "type": "Structures"
+    },
+    "247": {
+        "name": "Hand Carts",
+        "power": "0",
+        "recipeID": 281,
+        "type": "Decors"
+    },
+    "248": {
+        "name": "Hanging Plants",
+        "power": "0",
+        "recipeID": 282,
+        "type": "Decors"
+    },
+    "249": {
+        "name": "Hanging Rug",
+        "power": "0",
+        "recipeID": 283,
+        "type": "Decors"
+    },
+    "250": {
+        "name": "Helmet Case",
+        "power": "0",
+        "recipeID": 284,
+        "type": "Displays"
+    },
+    "251": {
+        "name": "Hydroponic Hab A",
+        "power": "0",
+        "recipeID": 285,
+        "type": "Structures"
+    },
+    "252": {
+        "name": "Hydroponic Hab B",
+        "power": "0",
+        "recipeID": 286,
+        "type": "Structures"
+    },
+    "253": {
+        "name": "Hydroponic Hab Round",
+        "power": "0",
+        "recipeID": 287,
+        "type": "Structures"
+    },
+    "254": {
+        "name": "Industrial Light Post",
+        "power": "0",
+        "recipeID": 288,
+        "type": "Power"
+    },
+    "255": {
+        "name": "Industrial Wall Light",
+        "power": "0",
+        "recipeID": 289,
+        "type": "Power"
+    },
+    "256": {
+        "name": "Industrial Wall Lights",
+        "power": "0",
+        "recipeID": 290,
+        "type": "Lights"
+    },
+    "257": {
+        "name": "Industrial Workbench",
+        "power": "0",
+        "recipeID": 291,
+        "type": "Crafting"
+    },
+    "258": {
+        "name": "Landing Pad - Small",
+        "power": "0",
+        "recipeID": 292,
+        "type": "Misc"
+    },
+    "259": {
+        "name": "Landing Pad with Shipbuilder",
+        "power": "0",
+        "recipeID": 293,
+        "type": "Misc"
+    },
+    "260": {
+        "name": "Large Hex Hab",
+        "power": "0",
+        "recipeID": 294,
+        "type": "Structures"
+    },
+    "261": {
+        "name": "Laser Turret Mk I",
+        "power": "-3",
+        "recipeID": 295,
+        "type": "Defenses"
+    },
+    "262": {
+        "name": "Laser Turret Mk II",
+        "power": "-5",
+        "recipeID": 296,
+        "type": "Defenses"
+    },
+    "263": {
+        "name": "Laser Turret Mk III",
+        "power": "-8",
+        "recipeID": 297,
+        "type": "Defenses"
+    },
+    "264": {
+        "name": "Light Post",
+        "power": "0",
+        "recipeID": 298,
+        "type": "Power"
+    },
+    "265": {
+        "name": "Light Posts",
+        "power": "0",
+        "recipeID": 299,
+        "type": "Lights"
+    },
+    "266": {
+        "name": "Light Posts (variant)",
+        "power": "0",
+        "recipeID": 300,
+        "type": "Lights"
+    },
+    "267": {
+        "name": "Logistics Robot",
+        "power": "0",
+        "recipeID": 301,
+        "type": "Robots"
+    },
+    "268": {
+        "name": "Long Oval Table",
+        "power": "0",
+        "recipeID": 302,
+        "type": "Furniture"
+    },
+    "269": {
+        "name": "Long Table",
+        "power": "0",
+        "recipeID": 303,
+        "type": "Furniture"
+    },
+    "270": {
+        "name": "Mannequins",
+        "power": "0",
+        "recipeID": 304,
+        "type": "Displays"
+    },
+    "271": {
+        "name": "Mannequins (variant 1)",
+        "power": "0",
+        "recipeID": 305,
+        "type": "Displays"
+    },
+    "272": {
+        "name": "Mannequins (variant 2)",
+        "power": "0",
+        "recipeID": 306,
+        "type": "Displays"
+    },
+    "273": {
+        "name": "Mannequins (variant 3)",
+        "power": "0",
+        "recipeID": 307,
+        "type": "Displays"
+    },
+    "274": {
+        "name": "Metal Sculpture",
+        "power": "0",
+        "recipeID": 308,
+        "type": "Decors"
+    },
+    "275": {
+        "name": "Military Hab",
+        "power": "0",
+        "recipeID": 309,
+        "type": "Structures"
+    },
+    "276": {
+        "name": "Mission Board",
+        "power": "0",
+        "recipeID": 310,
+        "type": "Misc"
+    },
+    "277": {
+        "name": "Model Ship (starship)",
+        "power": "0",
+        "recipeID": 311,
+        "type": "Decors"
+    },
+    "278": {
+        "name": "Model Ship (wooden)",
+        "power": "0",
+        "recipeID": 312,
+        "type": "Decors"
+    },
+    "279": {
+        "name": "Mounted Ashta",
+        "power": "0",
+        "recipeID": 313,
+        "type": "Decors"
+    },
+    "280": {
+        "name": "Mounted Beetle Crab",
+        "power": "0",
+        "recipeID": 314,
+        "type": "Decors"
+    },
+    "281": {
+        "name": "Mounted Lock Jaw",
+        "power": "0",
+        "recipeID": 315,
+        "type": "Decors"
+    },
+    "282": {
+        "name": "Mounted Radar Face",
+        "power": "0",
+        "recipeID": 316,
+        "type": "Decors"
+    },
+    "283": {
+        "name": "Mounted Red Mile Apex",
+        "power": "0",
+        "recipeID": 317,
+        "type": "Decors"
+    },
+    "284": {
+        "name": "Mounted Sea Bat",
+        "power": "0",
+        "recipeID": 318,
+        "type": "Decors"
+    },
+    "285": {
+        "name": "Multiplex Fabricator",
+        "power": "-12",
+        "recipeID": 319,
+        "type": "Builders"
+    },
+    "286": {
+        "name": "Navigation Consoles",
+        "power": "0",
+        "recipeID": 320,
+        "type": "Furniture"
+    },
+    "287": {
+        "name": "ObservatoryFree Creation",
+        "power": "0",
+        "recipeID": 321,
+        "type": "Structures"
+    },
+    "288": {
+        "name": "Old Computer",
+        "power": "0",
+        "recipeID": 322,
+        "type": "Decors"
+    },
+    "289": {
+        "name": "Orrery Table",
+        "power": "0",
+        "recipeID": 323,
+        "type": "Furniture"
+    },
+    "290": {
+        "name": "Outpost Airlock",
+        "power": "0",
+        "recipeID": 324,
+        "type": "Structures"
+    },
+    "291": {
+        "name": "Outpost Beacon",
+        "power": "0",
+        "recipeID": 325,
+        "type": "Misc"
+    },
+    "292": {
+        "name": "Oval Rug",
+        "power": "0",
+        "recipeID": 326,
+        "type": "Decors"
+    },
+    "293": {
+        "name": "Pedestals",
+        "power": "0",
+        "recipeID": 327,
+        "type": "Decors"
+    },
+    "294": {
+        "name": "Pedestals (empty)",
+        "power": "0",
+        "recipeID": 328,
+        "type": "Decors"
+    },
+    "295": {
+        "name": "Pharmaceutical Lab",
+        "power": "0",
+        "recipeID": 329,
+        "type": "Crafting"
+    },
+    "296": {
+        "name": "Picture Frame",
+        "power": "0",
+        "recipeID": 330,
+        "type": "Decors"
+    },
+    "297": {
+        "name": "Plant Shelf",
+        "power": "0",
+        "recipeID": 331,
+        "type": "Furniture"
+    },
+    "298": {
+        "name": "Planters",
+        "power": "0",
+        "recipeID": 332,
+        "type": "Decors"
+    },
+    "299": {
+        "name": "Portable Stove Top",
+        "power": "0",
+        "recipeID": 333,
+        "type": "Decors"
+    },
+    "300": {
+        "name": "Posters",
+        "power": "0",
+        "recipeID": 334,
+        "type": "Decors"
+    },
+    "301": {
+        "name": "Posters (variant 1)",
+        "power": "0",
+        "recipeID": 335,
+        "type": "Decors"
+    },
+    "302": {
+        "name": "Posters (variant 2)",
+        "power": "0",
+        "recipeID": 336,
+        "type": "Decors"
+    },
+    "303": {
+        "name": "Potted Plants",
+        "power": "0",
+        "recipeID": 337,
+        "type": "Decors"
+    },
+    "304": {
+        "name": "Power Management Robot",
+        "power": "0",
+        "recipeID": 338,
+        "type": "Robots"
+    },
+    "305": {
+        "name": "Powered Switch",
+        "power": "0",
+        "recipeID": 339,
+        "type": "Power"
+    },
+    "306": {
+        "name": "Punching Bag",
+        "power": "0",
+        "recipeID": 340,
+        "type": "Decors"
+    },
+    "307": {
+        "name": "Reactor",
+        "power": "+30",
+        "recipeID": 341,
+        "type": "Power"
+    },
+    "308": {
+        "name": "Reactor - Advanced",
+        "power": "+100",
+        "recipeID": 342,
+        "type": "Power"
+    },
+    "309": {
+        "name": "Rectangle Rug",
+        "power": "0",
+        "recipeID": 343,
+        "type": "Decors"
+    },
+    "310": {
+        "name": "Refrigerator",
+        "power": "0",
+        "recipeID": 344,
+        "type": "Furniture"
+    },
+    "311": {
+        "name": "Research Lab",
+        "power": "0",
+        "recipeID": 345,
+        "type": "Crafting"
+    },
+    "312": {
+        "name": "Room Dividers",
+        "power": "0",
+        "recipeID": 346,
+        "type": "Furniture"
+    },
+    "313": {
+        "name": "Round Rug",
+        "power": "0",
+        "recipeID": 347,
+        "type": "Decors"
+    },
+    "314": {
+        "name": "Rug",
+        "power": "0",
+        "recipeID": 348,
+        "type": "Decors"
+    },
+    "315": {
+        "name": "Rug (variant)",
+        "power": "0",
+        "recipeID": 349,
+        "type": "Decors"
+    },
+    "316": {
+        "name": "Sanitation Mini Bot",
+        "power": "0",
+        "recipeID": 350,
+        "type": "Robots"
+    },
+    "317": {
+        "name": "Scan Booster",
+        "power": "-3",
+        "recipeID": 351,
+        "type": "Misc"
+    },
+    "318": {
+        "name": "Scan Booster - Advanced",
+        "power": "-6",
+        "recipeID": 352,
+        "type": "Misc"
+    },
+    "319": {
+        "name": "Scan Booster - Military Grade",
+        "power": "-12",
+        "recipeID": 353,
+        "type": "Misc"
+    },
+    "320": {
+        "name": "Science Hab Flat Small",
+        "power": "0",
+        "recipeID": 354,
+        "type": "Structures"
+    },
+    "321": {
+        "name": "Science Hab Small",
+        "power": "0",
+        "recipeID": 355,
+        "type": "Structures"
+    },
+    "322": {
+        "name": "Sculpture",
+        "power": "0",
+        "recipeID": 356,
+        "type": "Decors"
+    },
+    "323": {
+        "name": "Security Mini Bot",
+        "power": "0",
+        "recipeID": 357,
+        "type": "Robots"
+    },
+    "324": {
+        "name": "Security Robot",
+        "power": "0",
+        "recipeID": 358,
+        "type": "Robots"
+    },
+    "325": {
+        "name": "Security Robot (armored)",
+        "power": "0",
+        "recipeID": 359,
+        "type": "Robots"
+    },
+    "326": {
+        "name": "Self-Service Bounty Clearance",
+        "power": "0",
+        "recipeID": 360,
+        "type": "Misc"
+    },
+    "327": {
+        "name": "Shelf",
+        "power": "0",
+        "recipeID": 361,
+        "type": "Furniture"
+    },
+    "328": {
+        "name": "Shelf (variant)",
+        "power": "0",
+        "recipeID": 362,
+        "type": "Furniture"
+    },
+    "329": {
+        "name": "Side Table",
+        "power": "0",
+        "recipeID": 363,
+        "type": "Furniture"
+    },
+    "330": {
+        "name": "Side Table (variant)",
+        "power": "0",
+        "recipeID": 364,
+        "type": "Furniture"
+    },
+    "331": {
+        "name": "Signs",
+        "power": "0",
+        "recipeID": 365,
+        "type": "Decors"
+    },
+    "332": {
+        "name": "Simple Fabricator",
+        "power": "-5",
+        "recipeID": 366,
+        "type": "Builders"
+    },
+    "333": {
+        "name": "Sink",
+        "power": "0",
+        "recipeID": 367,
+        "type": "Decors"
+    },
+    "334": {
+        "name": "Sleeping Bags",
+        "power": "0",
+        "recipeID": 368,
+        "type": "Furniture"
+    },
+    "335": {
+        "name": "Small Hex Hab",
+        "power": "0",
+        "recipeID": 369,
+        "type": "Structures"
+    },
+    "336": {
+        "name": "Solar Array",
+        "power": "+6",
+        "recipeID": 370,
+        "type": "Power"
+    },
+    "337": {
+        "name": "Solar Dome",
+        "power": "+12",
+        "recipeID": 371,
+        "type": "Power"
+    },
+    "338": {
+        "name": "Space Frog Posters",
+        "power": "0",
+        "recipeID": 372,
+        "type": "Decors"
+    },
+    "339": {
+        "name": "Spacesuit Workbench",
+        "power": "0",
+        "recipeID": 373,
+        "type": "Crafting"
+    },
+    "340": {
+        "name": "Standing Mirror",
+        "power": "0",
+        "recipeID": 374,
+        "type": "Decors"
+    },
+    "341": {
+        "name": "Statues",
+        "power": "0",
+        "recipeID": 375,
+        "type": "Decors"
+    },
+    "342": {
+        "name": "Stool 1",
+        "power": "0",
+        "recipeID": 376,
+        "type": "Furniture"
+    },
+    "343": {
+        "name": "Stool 2",
+        "power": "0",
+        "recipeID": 377,
+        "type": "Furniture"
+    },
+    "344": {
+        "name": "Stool 3",
+        "power": "0",
+        "recipeID": 378,
+        "type": "Furniture"
+    },
+    "345": {
+        "name": "Stool 4",
+        "power": "0",
+        "recipeID": 379,
+        "type": "Furniture"
+    },
+    "346": {
+        "name": "Stool 5",
+        "power": "0",
+        "recipeID": 380,
+        "type": "Furniture"
+    },
+    "347": {
+        "name": "Storage - Gas",
+        "power": "0",
+        "recipeID": 381,
+        "type": "Storage"
+    },
+    "348": {
+        "name": "Storage - Gas - Large",
+        "power": "0",
+        "recipeID": 382,
+        "type": "Storage"
+    },
+    "349": {
+        "name": "Storage - Gas - Medium",
+        "power": "0",
+        "recipeID": 383,
+        "type": "Storage"
+    },
+    "350": {
+        "name": "Storage - Liquid",
+        "power": "0",
+        "recipeID": 384,
+        "type": "Storage"
+    },
+    "351": {
+        "name": "Storage - Liquid - Large",
+        "power": "0",
+        "recipeID": 385,
+        "type": "Storage"
+    },
+    "352": {
+        "name": "Storage - Liquid - Medium",
+        "power": "0",
+        "recipeID": 386,
+        "type": "Storage"
+    },
+    "353": {
+        "name": "Storage - Solid",
+        "power": "0",
+        "recipeID": 387,
+        "type": "Storage"
+    },
+    "354": {
+        "name": "Storage - Solid - Large",
+        "power": "0",
+        "recipeID": 388,
+        "type": "Storage"
+    },
+    "355": {
+        "name": "Storage - Solid - Medium",
+        "power": "0",
+        "recipeID": 389,
+        "type": "Storage"
+    },
+    "356": {
+        "name": "Storage Bins",
+        "power": "0",
+        "recipeID": 390,
+        "type": "Decors"
+    },
+    "357": {
+        "name": "Surgical Bed",
+        "power": "0",
+        "recipeID": 391,
+        "type": "Furniture"
+    },
+    "358": {
+        "name": "Surgical Bed (variant)",
+        "power": "0",
+        "recipeID": 392,
+        "type": "Furniture"
+    },
+    "359": {
+        "name": "Table 1",
+        "power": "0",
+        "recipeID": 393,
+        "type": "Furniture"
+    },
+    "360": {
+        "name": "Table 2",
+        "power": "0",
+        "recipeID": 394,
+        "type": "Furniture"
+    },
+    "361": {
+        "name": "Table 3",
+        "power": "0",
+        "recipeID": 395,
+        "type": "Furniture"
+    },
+    "362": {
+        "name": "Tables",
+        "power": "0",
+        "recipeID": 396,
+        "type": "Furniture"
+    },
+    "363": {
+        "name": "Tick Turret Mk I",
+        "power": "-3",
+        "recipeID": 397,
+        "type": "Defenses"
+    },
+    "364": {
+        "name": "Toilet",
+        "power": "0",
+        "recipeID": 398,
+        "type": "Decors"
+    },
+    "365": {
+        "name": "Toilet Paper",
+        "power": "0",
+        "recipeID": 399,
+        "type": "Decors"
+    },
+    "366": {
+        "name": "Towel Rack",
+        "power": "0",
+        "recipeID": 400,
+        "type": "Decors"
+    },
+    "367": {
+        "name": "Transfer Container",
+        "power": "0",
+        "recipeID": 401,
+        "type": "Storage"
+    },
+    "368": {
+        "name": "Trash Cans",
+        "power": "0",
+        "recipeID": 402,
+        "type": "Decors"
+    },
+    "369": {
+        "name": "Wall Cabinets",
+        "power": "0",
+        "recipeID": 403,
+        "type": "Furniture"
+    },
+    "370": {
+        "name": "Wall Monitor",
+        "power": "0",
+        "recipeID": 404,
+        "type": "Decors"
+    },
+    "371": {
+        "name": "Wall Shelf",
+        "power": "0",
+        "recipeID": 405,
+        "type": "Furniture"
+    },
+    "372": {
+        "name": "Warehouse - Large",
+        "power": "0",
+        "recipeID": 406,
+        "type": "Storage"
+    },
+    "373": {
+        "name": "Warehouse - Medium",
+        "power": "0",
+        "recipeID": 407,
+        "type": "Storage"
+    },
+    "374": {
+        "name": "Warehouse - Small",
+        "power": "0",
+        "recipeID": 408,
+        "type": "Storage"
+    },
+    "375": {
+        "name": "Watchtower",
+        "power": "0",
+        "recipeID": 409,
+        "type": "Structures"
+    },
+    "376": {
+        "name": "Water Cooler",
+        "power": "0",
+        "recipeID": 410,
+        "type": "Decors"
+    },
+    "377": {
+        "name": "Weapon Case",
+        "power": "0",
+        "recipeID": 411,
+        "type": "Displays"
+    },
+    "378": {
+        "name": "Weapon Display Case",
+        "power": "0",
+        "recipeID": 412,
+        "type": "Displays"
+    },
+    "379": {
+        "name": "Weapon Rack",
+        "power": "0",
+        "recipeID": 413,
+        "type": "Displays"
+    },
+    "380": {
+        "name": "Weapon Rack (variant)",
+        "power": "0",
+        "recipeID": 414,
+        "type": "Displays"
+    },
+    "381": {
+        "name": "Weapon Rack (wall)",
+        "power": "0",
+        "recipeID": 415,
+        "type": "Displays"
+    },
+    "382": {
+        "name": "Weapon Workbench",
+        "power": "0",
+        "recipeID": 416,
+        "type": "Crafting"
+    },
+    "383": {
+        "name": "Weight Bench",
+        "power": "0",
+        "recipeID": 417,
+        "type": "Decors"
+    },
+    "384": {
+        "name": "White Board - Floor",
+        "power": "0",
+        "recipeID": 418,
+        "type": "Decors"
+    },
+    "385": {
+        "name": "Wind Turbine",
+        "power": "+6",
+        "recipeID": 419,
+        "type": "Power"
+    },
+    "386": {
+        "name": "Wind Turbine - Advanced",
+        "power": "+14",
+        "recipeID": 420,
+        "type": "Power"
+    },
+    "387": {
+        "name": "Wooden Desk",
+        "power": "0",
+        "recipeID": 421,
+        "type": "Furniture"
+    }
+}
